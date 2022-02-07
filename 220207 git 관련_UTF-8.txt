@@ -32,3 +32,27 @@ https://blog.naver.com/PostView.naver?blogId=spiderman25&logNo=222500518958&cate
 https://docs.microsoft.com/ko-kr/visualstudio/ide/reference/how-to-display-line-numbers-in-the-editor?view=vs-2022
 
 tool bar에서 힌트를 얻어서 우측 상단 톱니바퀴 아이콘 눌러서 Show Notebook Line Numbers 선택함.
+
+
+[깃허브 학교인증]
+https://education.github.com/pack
+sign up for package -> Thanks for submitting 뜨고 학교 메일 주소로 업그레이드 됐다고 이메일 받으면 성공!
+
+
+
+[깃 메인에서 보일 브랜치 설정]
+설정 톱니바퀴 -> page -> source -> branch 선택
+
+
+[!!!깃헙 블로그!!!]
+post 쓸 때 유의점!!
+1. _posts 폴더에서 날짜이름으로 .md 파일 생성해야함. (.md 꼭 붙이기!!!)
+2. 포스팅 앞에 front matter를 꼭 해줘야 함!!
+  [front matter]
+  https://jekyllrb.com/docs/front-matter/ 여기서 복붙!
+  [markdown cheatsheet]
+  https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+config 파일에서 url관련 유의점!!
+1. url, enforce_ssl, baseurl 전부 내 깃헙 블로그 url로 써줘야함.
+2. 단, 내 깃헙 블로그 url은 하나 뿐임.
