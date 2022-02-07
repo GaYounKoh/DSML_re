@@ -56,3 +56,6 @@ post 쓸 때 유의점!!
 config 파일에서 url관련 유의점!!
 1. url, enforce_ssl, baseurl 전부 내 깃헙 블로그 url로 써줘야함.
 2. 단, 내 깃헙 블로그 url은 하나 뿐임.
+
+
+## 레포만 다르면 push, pull 충돌 안일어남.
