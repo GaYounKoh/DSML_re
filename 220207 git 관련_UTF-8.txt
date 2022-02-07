@@ -1,0 +1,23 @@
+﻿<오늘의 push code>
+git push origin 220207-school
+https://powerofsummary.tistory.com/123
+https://blog.naver.com/PostView.naver?blogId=owl6615&logNo=222542201977
+
+
+git 기록 (git log)은 소스제어의 상단 tool bar의 view git graph를 클릭해 확인 가능.
+
+한국어 패치된 깃헙에서 branch는 [분기]라고 불림. _ 어제 그래서 못찾은 것.
+https://www.slideshare.net/IldooKim/170209-github-introduction-korean-version
+
+
+깃헙 명령어 정리 블로그
+https://opendoorlife.tistory.com/9
+
+
+에러에 대한 해결
+Error message: module 'keras.utils.generic_utils' has no attribute 'populate_dict_with_module_objects'
+https://juun42.tistory.com/52
+
+
+학교에서 VS Code 쓸 때 data 경로
+C:/Users/FLAG/Desktop/dsml_data/
