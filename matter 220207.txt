@@ -1,0 +1,21 @@
+LAB 1,2위
+FI 높은데 퇴원율 높은게 이상.
+FI 높다 == 폐렴과 관계가 있다.
+설명이랑 매치가 안되는게 이상함.
+
+생존마커로 봐도 될까?
+
+1번 CRP
+==> 시간에 따른 변화 클 수록 사망 위험 낮아짐.
+https://ir.ymlib.yonsei.ac.kr/bitstream/22282913/134850/1/T013094.pdf
+
+
+2번 호산구
+
+
+white box test, black box test
+https://kkhipp.tistory.com/158
+https://www.crocus.co.kr/1681
+
+
+#특별히 수가 많아서 그런 것은 아님.
