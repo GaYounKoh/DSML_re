@@ -21,3 +21,14 @@ https://juun42.tistory.com/52
 
 학교에서 VS Code 쓸 때 data 경로
 C:/Users/FLAG/Desktop/dsml_data/
+
+
+VS Code에서 jupyter line num 보기
+[Shift + L]
+이라는데 안됨.
+https://blog.naver.com/PostView.naver?blogId=spiderman25&logNo=222500518958&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
+이 아랜 tool bar를 못찾아서 이용 못하고,
+https://docs.microsoft.com/ko-kr/visualstudio/ide/reference/how-to-display-line-numbers-in-the-editor?view=vs-2022
+
+tool bar에서 힌트를 얻어서 우측 상단 톱니바퀴 아이콘 눌러서 Show Notebook Line Numbers 선택함.
