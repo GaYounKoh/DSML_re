@@ -1,0 +1,75 @@
+﻿<오늘의 push code>
+git push origin 220207-school
+https://powerofsummary.tistory.com/123
+https://blog.naver.com/PostView.naver?blogId=owl6615&logNo=222542201977
+
+
+git 기록 (git log)은 소스제어의 상단 tool bar의 view git graph를 클릭해 확인 가능.
+
+한국어 패치된 깃헙에서 branch는 [분기]라고 불림. _ 어제 그래서 못찾은 것.
+https://www.slideshare.net/IldooKim/170209-github-introduction-korean-version
+
+
+깃헙 명령어 정리 블로그
+https://opendoorlife.tistory.com/9
+
+
+에러에 대한 해결
+Error message: module 'keras.utils.generic_utils' has no attribute 'populate_dict_with_module_objects'
+https://juun42.tistory.com/52
+
+
+학교에서 VS Code 쓸 때 data 경로
+C:/Users/FLAG/Desktop/dsml_data/
+
+
+VS Code에서 jupyter line num 보기
+[Shift + L]
+이라는데 안됨.
+https://blog.naver.com/PostView.naver?blogId=spiderman25&logNo=222500518958&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
+이 아랜 tool bar를 못찾아서 이용 못하고,
+https://docs.microsoft.com/ko-kr/visualstudio/ide/reference/how-to-display-line-numbers-in-the-editor?view=vs-2022
+
+tool bar에서 힌트를 얻어서 우측 상단 톱니바퀴 아이콘 눌러서 Show Notebook Line Numbers 선택함.
+
+
+[깃허브 학교인증]
+https://education.github.com/pack
+sign up for package -> Thanks for submitting 뜨고 학교 메일 주소로 업그레이드 됐다고 이메일 받으면 성공!
+
+
+
+[깃 메인에서 보일 브랜치 설정]
+설정 톱니바퀴 -> page -> source -> branch 선택
+
+
+[!!!깃헙 블로그!!!]
+post 쓸 때 유의점!!
+1. _posts 폴더에서 날짜이름으로 .md 파일 생성해야함. (.md 꼭 붙이기!!!ㅡ , 꼭 날짜이름 뒤에 포스팅 제목 쓸 것)
+2. 포스팅 앞에 front matter를 꼭 해줘야 함!!
+  [front matter]
+  https://jekyllrb.com/docs/front-matter/ 여기서 복붙!
+  [markdown cheatsheet]
+  https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+config 파일에서 url관련 유의점!!
+1. url, enforce_ssl, baseurl 전부 내 깃헙 블로그 url로 써줘야함.
+2. 단, 내 깃헙 블로그 url은 하나 뿐임.
+
+
+## 레포만 다르면 push, pull 충돌 안일어남.
+
+## _layouts/default.html에서 전반적 수정
+
+
+[markdown에서 쓰는 html용어]
+1. blank 생성 방법!!, tag로 해야함.
+<br> : break의 약자, 태그 닫거나 그럴 필요는 없음.
+
+2. horizontal (페이지를 나누는 가로 줄) 생성 방법!!, tag로 해야함.
+<hr> : horizontal의 약자, 태그 닫거나 그럴 필요는 없음.
+
+
+[웨일 비밀번호 관리]
+설정 -> 개인정보 보호 -> 비밀번호
