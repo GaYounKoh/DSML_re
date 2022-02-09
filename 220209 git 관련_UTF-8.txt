@@ -54,3 +54,37 @@ https://devlog-wjdrbs96.tistory.com/236
 
 [크롬 단축키]
 https://mainia.tistory.com/4086
+
+
+
+[그제 파일 최종 save후 또 최종 push 안했는지, 파일 닫기 하려고 하니 변경 후 덮어쓰기 하겠냐는 메세지 받음.
+그러겠다고 한 다음 staging 했더니 에러메세지 뜸.]
+에러메세지:
+warning: LF will be replaced by CRLF in Best Model Saving for school.ipynb.
+The file will have its original line endings in your working directory.
+파일 새로운 걸로 바뀔거라는 에러메세지라고 이해함.
+
+
+
+[git ignore]
+<꽤나 친절한 한국어 tutorial>
+https://zoosso.tistory.com/835
+https://programming119.tistory.com/105 #사용법 제일 이해됨.
+https://gbsb.tistory.com/11 #터미널에서 사용법
+
+    [최상위폴더 == .git이 있는 폴더 == git init을 한 폴더, 어디에 있는거..?, 숨긴 항목 보이게 했더니 드디어 보임.... 이 파일 숨겨져있음..]
+    https://zoosso.tistory.com/818
+
+https://pino-day.tistory.com/12
+https://y-oni.tistory.com/241  # 여기는 좀 이해하면 볼만한 페이지 같음.
+    # 특정 파일이나 프로그램을 제외하고 싶으면 .gitignore 파일에 단순히 파일name.확장자라고 입력하기만 하면 됨.
+    # gitignore 파일은 그냥 메모장 이름을 .gitignore로 생성하면 됨.
+
+    [git rm -r --cached . 이해]
+    https://gold-dragon.tistory.com/12
+
+<사용 이유 등 설명>
+https://nesoy.github.io/articles/2017-01/Git-Ignore
+https://velog.io/@psk84/.gitignore-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
+https://www.lesstif.com/gitbook/git-ignore-gitignore-54952369.html
+https://chunggaeguri.tistory.com/entry/GitHub-gitignore-%EC%82%AC%EC%9A%A9%EB%B2%95 #사용 이유 맘에 듦. 100mb초과..
