@@ -98,8 +98,20 @@ git repo 복제시 레포들을 묶을 최상위 폴더 (위에서 말한 최상
 
 
 
-이미 올라간거 git ignore 하려면 지우고 다시 push, 지우는 과정은 아래와 같음.
+[이미 올라간거 git ignore 하려면 지우고 다시 push, 지우는 과정은 아래와 같음.]
 git rm -r --cached .
 git add. 
 git commit -m "커밋메세지"
 git push origin {브랜치명}
+
+
+
+[VS Code 단축키]
+https://demun.github.io/vscode-tutorial/shortcuts/
+https://blog.aliencube.org/ko/2016/07/06/markdown-in-visual-studio-code/
+
+
+
+[에러를 알아봤다.]
+에러메세지: module 'keras.utils.generic_utils' has no attribute 'populate_dict_with_module_objects'
+해결: from keras.models import load_model ==> keras 앞에 tensorflow.을 붙여줌.ㄴ
