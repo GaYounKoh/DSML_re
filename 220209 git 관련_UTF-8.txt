@@ -86,6 +86,20 @@ https://y-oni.tistory.com/241  # 여기는 좀 이해하면 볼만한 페이지 
 
 <사용 이유 등 설명>
 https://nesoy.github.io/articles/2017-01/Git-Ignore
-https://velog.io/@psk84/.gitignore-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
+https://velog.io/@psk84/.gitignore-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0 #이미 올라간 파일에 대해 gitignore 적용
 https://www.lesstif.com/gitbook/git-ignore-gitignore-54952369.html
 https://chunggaeguri.tistory.com/entry/GitHub-gitignore-%EC%82%AC%EC%9A%A9%EB%B2%95 #사용 이유 맘에 듦. 100mb초과..
+
+
+
+git repo 복제시 레포들을 묶을 최상위 폴더 (위에서 말한 최상위 폴더랑은 다름.)만 선택하면 됨.
+그럼 그 안에서 레포 이름으로 알아서 폴더 생김. (이 때 알아서 생기는 이 폴더가 아까 위에서 말한 그 레포의 최상위 폴더.)
+괜히 큰 폴더 안에서 레포이름으로 폴더를 따로 만들지 않아도 된단 소리....
+
+
+
+이미 올라간거 git ignore 하려면 지우고 다시 push, 지우는 과정은 아래와 같음.
+git rm -r --cached .
+git add. 
+git commit -m "커밋메세지"
+git push origin {브랜치명}
