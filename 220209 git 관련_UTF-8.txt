@@ -1,0 +1,56 @@
+﻿[github이 제공하는 jekyll tutorial]
+https://jekyllrb.com/docs/
+
+[git pull이 안먹을 때]
+에러메세지:
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> 220207-school
+
+<참고1>
+https://insapporo2016.tistory.com/53
+이 페이지만으로도 해결 함.
+git branch #로 현재 브랜치 확인. (초록색으로 하이라이팅 돼있는게 현재 위치임.)
+git checkout main #(어제 병합한 main 브랜치로 이동.)
+git pull
+
+
+<<페이지 아래 달려있던 댓글>>
+깃 브랜치 검색 (모두)
+git branch -a
+
+현재 로컬의 master 삭제
+git branch -D master
+
+remote/master로 정확히 로컬브랜치 재 생성.
+git checkout -b master remote/master
+
+git pull 시 에러 없이 동작 됨.
+
+
+여기에 달린 질문:
+로컬의 마스터를 삭제하고
+리모트에 있는 마스터를 복사한
+로컬 마스터를 만든다는 말씀이신가요?
+
+
+<참고2>
+https://www.todaymart.com/812
+-u`나 `--set-upstream-to 옵션 줘서 로컬 master가 origin/master를 추적하게끔 해줍니다.
+
+$git branch --set-upstream-to=origin/master master
+
+
+
+git fetch와 pull의 차이?
+https://devlog-wjdrbs96.tistory.com/236
+
+
+[크롬 단축키]
+https://mainia.tistory.com/4086
