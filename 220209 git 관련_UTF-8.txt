@@ -78,6 +78,7 @@ https://gbsb.tistory.com/11 #터미널에서 사용법
 https://pino-day.tistory.com/12
 https://y-oni.tistory.com/241  # 여기는 좀 이해하면 볼만한 페이지 같음.
     # 특정 파일이나 프로그램을 제외하고 싶으면 .gitignore 파일에 단순히 파일name.확장자라고 입력하기만 하면 됨.
+        # 확인해보니 띄어쓰기 있는 파일명도 ㄱㅊ.
     # gitignore 파일은 그냥 메모장 이름을 .gitignore로 생성하면 됨.
 
     [git rm -r --cached . 이해]
