@@ -114,4 +114,11 @@ https://blog.aliencube.org/ko/2016/07/06/markdown-in-visual-studio-code/
 
 [에러를 알아봤다.]
 에러메세지: module 'keras.utils.generic_utils' has no attribute 'populate_dict_with_module_objects'
-해결: from keras.models import load_model ==> keras 앞에 tensorflow.을 붙여줌.ㄴ
+해결: from keras.models import load_model ==> keras 앞에 tensorflow.을 붙여줌.
+
+
+[df의 특정 열의 값을 부등식 조건을 줘서 바꿀 수는 없나?]
+ex)
+df[df['a']<=1]['a'] = 1
+
+해결책: loc 또는 iloc....
