@@ -122,3 +122,38 @@ ex)
 df[df['a']<=1]['a'] = 1
 
 해결책: loc 또는 iloc....
+
+
+[git push 관련 메세지]
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+그냥 말 그대로 최종 push 이후에 변한게 없다는게 맞았음.
+https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EC%88%98%EC%A0%95%ED%95%98%EA%B3%A0-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0
+
+아래 블로그는 무슨 말을 하고싶은 건지??
+https://m.blog.naver.com/yaki80/222135060431
+
+
+[적용 미리보기]
+확장 -> Live Preview
+
+
+[VS Code 한 번에 여러개 선택 수정 방법]
+수정할 변수(또는 단어)를 선택
+단축키 Ctrl + Shift + L 누르면 다중 선택이 됨. (단, 같은 단어에 한해서만 됨.)
+https://developerntraveler.tistory.com/83
+
+
+단축키 Ctrl + Alt + 방향 위/아래 키 (단, 세로(y축) 기준 같은 위치에 한해서만..., 한 번에 여러줄 같은 코드 치고 싶을 때 쓸만함. 근데 그런데에는 복붙이 더 나을 것 같긴 함.)
+단축키 Shift + Alt + 마우스 드래그 (언제 어떻게 쓰이게 될 지 잘 모르겠음. 한 번에 뭉텅이로 드래그하고 싶을 때???)
+https://hianna.tistory.com/358
+https://tttap.tistory.com/185
+
+
+
+단축키 Ctrl + D (????이건 한 번에 몇 개 고칠 지 낱개 선택 가능, 단 위에서부터 하나하나 내려옴.)
+https://daldalhanstory.tistory.com/72
+
