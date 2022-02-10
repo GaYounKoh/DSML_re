@@ -1,2 +1,11 @@
 /git ignore prac.txt
 dsml_data/
+/df_all_best_for_meth1.csv
+/df_all_diff_for_meth1.csv
+/df_all_preds_for_meth1.csv
+/df_d1d5_best_for_meth1.csv
+/df_d1d5_diff_for_meth1.csv
+/df_d1d5_preds_for_meth1.csv
+/df_d6d10_best_for_meth1.csv
+/df_d6d10_diff_for_meth1.csv
+/df_d6d10_preds_for_meth1.csv
