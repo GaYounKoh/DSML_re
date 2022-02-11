@@ -157,3 +157,8 @@ https://tttap.tistory.com/185
 단축키 Ctrl + D (????이건 한 번에 몇 개 고칠 지 낱개 선택 가능, 단 위에서부터 하나하나 내려옴.)
 https://daldalhanstory.tistory.com/72
 
+
+
+## Ctrl D랑 Ctrl Alt 방향키 단축키 220211에 알차게 써먹음.
+Ctrl D는 코드가 겹치는 부분에서 씀,
+Ctrl Alt 방향키는 변수 여러개 보고싶을 때 씀.

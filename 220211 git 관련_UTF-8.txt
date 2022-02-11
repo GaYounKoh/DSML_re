@@ -42,3 +42,27 @@ https://velog.io/@eassy/gitrepository-%EB%B3%80%EA%B2%BD-%ED%9B%84-push
 https://carmack-kim.tistory.com/68
 https://gist.github.com/480/4681b67d2a906db8c6c1321cc678f05f #위 링크와 같은 내용.
 
+
+[여러개 선택하려다 우연히 발견한 단축키]
+Shift + Alt + 아래키 : 현재 커서가 있는 줄 아래로 복사
+
+
+
+[검색어: vs code 동시에 여러 위치 수정]_ 미친 수요일에 그렇게 찾던 단축키....랑 최대한 비슷한 단축키...
+Alt + L + M + B (알파벳은 걍 순서대로 눌러주면 됨.)
+https://enjoytools.net/xe/board_vngc57/4679
+
+
+[엥????? 걍 Alt만 하면 된다고??????]
+Alt하고 원하는 위치 클릭...????????
+https://tipmore.tistory.com/9
+
+↑↑↑↑ Ctrl + D에 대한 tip도 있음.
+Ctrl + K 하나씩 추가하다가 하나를 건너뛰고 싶을 때
+Ctrl + U 하나씩 추가하다가 마지막 선택을 취소하고 싶을 때
+
+https://seill.tistory.com/483 # Alt + 좌클릭 이쯤이면 나만 빼고 다 알았냐며..
+빠져나오는 건 ESC키....
+
+[ms 공식 문서]
+https://docs.microsoft.com/ko-kr/visualstudio/ide/finding-and-replacing-text?view=vs-2022
