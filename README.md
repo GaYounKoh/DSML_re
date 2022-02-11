@@ -17,3 +17,9 @@ staging 돼있는게 없어서 아무 일도 안일어남.
 
 staging, commit, push 얘네는 늘 세트인가봄.
 ```
+
+```
+220211
+Method1, df_all, ReLU, Sign.ipynb 정리해서 putty 업로드 완료.
+```
+[데이터구조 간단정리??? 참고자료](https://velog.io/@jha0402/Data-structure-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%9D%BC%EB%A9%B4-%EA%BC%AD-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-7%EA%B0%80%EC%A7%80-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)
