@@ -1,0 +1,44 @@
+﻿[깃 명령 팔레트 (명령창) 여는 명령어]
+Ctrl + Shift + P
+
+[터미널 창 여는 명령어]
+Ctrl + `
+https://seohyun0120.tistory.com/entry/VS-Code-VS-Code%EC%97%90%EC%84%9C-git-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
+
+
+뭐든 알고나면 쉽다. 그것을 알기까지의 과정이 꽤나 하기싫을 뿐.
+
+https://alfenmage.tistory.com/entry/Git-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%99%80-VS-code-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-with-VS-Team-Services-VSTS
+ㅋㅋㅋㅋㅋ
+아무것도 모르는 사람들한테는 불친절ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+처음하는 사람은 답답...
+
+아니 위에 저런말 적어놓고 이런 얘기 들으니까 king sea/..
+
+
+https://ossam5.tistory.com/169 # 여기가 지금껏 본 깃 설명해주는 곳 중 가장 친절하고 보기 좋음.
+로컬 저장소: 내 pc 내 저장소
+원격 저장소: 서버 등 네트워크 저장소 (github이 그 예시)
+
+https://demun.github.io/vscode-tutorial/git/ #여기도 친절,,
+
+
+[VS에서 현재 작업중인 공간 변경 == git repository 변경 == 새 folder 열기]
+Ctrl + Shift + p 로 명령팔레트 연 후 open folder 검색 (검색이라 folder만 쳐도 충분함.)
+혹은
+Ctrl + k 후 Ctrl + o
+
+레포이름을 안다고 해서 폴더 선택까지 전부 명령어로 하는 방법은 없는 것 같음.
+
+
+아래 링크에 나와있진 않은데 아래 링크까지 읽다가 힌트를 얻음.
+https://technote.kr/352
+
+
+[도대체 remote는 뭘 하는 명령어인가?]
+↓↓↓쥔장의 에러경험과 코드가 같이 있는 페이지
+https://velog.io/@eassy/gitrepository-%EB%B3%80%EA%B2%BD-%ED%9B%84-push
+
+https://carmack-kim.tistory.com/68
+https://gist.github.com/480/4681b67d2a906db8c6c1321cc678f05f #위 링크와 같은 내용.
+
