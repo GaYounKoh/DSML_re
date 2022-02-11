@@ -71,3 +71,6 @@ https://docs.microsoft.com/ko-kr/visualstudio/ide/finding-and-replacing-text?vie
 [주석 단축키 Ctrl + /가 안먹을 때]
 Ctrl + Shift를 한 번 눌러주면 됨. 내가 워낙 Ctrl이나 shift을 오래 누르고 있어서 자주 이런 문제가 발생,,, 제대로 된 해결책 드디어 발견...
 https://d-tail.tistory.com/47
+
+
+[ignore는 push하고 가고, 집가서 pull해도 연동이 안되므로 안보이는게 정상]
