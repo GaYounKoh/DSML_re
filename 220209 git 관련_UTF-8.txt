@@ -161,4 +161,4 @@ https://daldalhanstory.tistory.com/72
 
 ## Ctrl D랑 Ctrl Alt 방향키 단축키 220211에 알차게 써먹음.
 Ctrl D는 코드가 겹치는 부분에서 씀,
-Ctrl Alt 방향키는 변수 여러개 보고싶을 때 씀.
+Ctrl Alt 방향키는 변수 여러개 보고싶을 때 씀. (변수 지정 코드가 한데 모여있을 때 쓰기 딱 좋았음.)
