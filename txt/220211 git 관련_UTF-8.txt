@@ -1,7 +1,7 @@
-﻿[깃 명령 팔레트 (명령창) 여는 명령어]
+﻿[깃 명령 팔레트 (명령창) 여는 단축키]
 Ctrl + Shift + P
 
-[터미널 창 여는 명령어]
+[터미널 창 여는 단축키]
 Ctrl + `
 https://seohyun0120.tistory.com/entry/VS-Code-VS-Code%EC%97%90%EC%84%9C-git-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
 
@@ -23,7 +23,7 @@ https://ossam5.tistory.com/169 # 여기가 지금껏 본 깃 설명해주는 곳
 https://demun.github.io/vscode-tutorial/git/ #여기도 친절,,
 
 
-[VS에서 현재 작업중인 공간 변경 == git repository 변경 == 새 folder 열기]
+[VS에서 현재 작업중인 공간 변경 == git repository 변경 == 다른 folder 열기]
 Ctrl + Shift + p 로 명령팔레트 연 후 open folder 검색 (검색이라 folder만 쳐도 충분함.)
 혹은
 Ctrl + k 후 Ctrl + o
@@ -73,7 +73,8 @@ Ctrl + Shift를 한 번 눌러주면 됨. 내가 워낙 Ctrl이나 shift을 오�
 https://d-tail.tistory.com/47
 
 
-[ignore는 push하고 가고, 집가서 pull해도 연동이 안되므로 안보이는게 정상]
+[ignore한 파일은 학교에서 push하고 가고, 집가서 pull해도 연동이 안되므로 집에선 안보이는게 정상]
+작업공간이 바뀌면 안보이는게 정상이란 소리임.
 
 [파이썬 list 역순]
 방법1) slicing : list[::-1], inplace = False고, return함.
