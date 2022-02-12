@@ -1,12 +1,14 @@
 [VS Code에서 git commit message 작성 못하고 그만 enter를 눌러버렸을 때, 마저 commit하는 법!]
 i 누르고
 메세지 작성하고 (따옴표 없어도 됨.)
-ES C눌러 빠져나오고?
+ESC 눌러 빠져나오고?
 :wq로 마무리!
 https://www.codeit.kr/community/threads/13928
 검색어: git commit message 못 썼을 때
 
 [VS Code에서 txt file 마우스 없이, 단축키로 열기]
-Ctrl + N, Ctrl + K, M 하고 text 하면 text file 열 수 있음. 얘도 단축키 꽤나 복잡
+Ctrl + N, Ctrl + K, M 하고 text 검색하면 text file 찾아서 열 수 있음. 얘도 단축키 꽤나 복잡
+근데 사실... txt file을 원하는 거라면 걍 Ctrl + N만 하고 바로 작성해도 됨...
 
 [VS Code에서 git repo 생성하기]
+그런 방법은 몇 번을 뒤졌는데 아직까지 안보임...;;;;;;;
