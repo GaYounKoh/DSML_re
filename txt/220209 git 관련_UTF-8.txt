@@ -63,6 +63,7 @@ https://mainia.tistory.com/4086
 warning: LF will be replaced by CRLF in Best Model Saving for school.ipynb.
 The file will have its original line endings in your working directory.
 파일 새로운 걸로 바뀔거라는 에러메세지라고 이해함.
+☞☞☞ 지금보니 잘못이해한듯. 파일 그대로일거라는 메세지인듯.
 
 
 
