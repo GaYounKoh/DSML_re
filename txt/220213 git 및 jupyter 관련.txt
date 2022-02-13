@@ -16,3 +16,21 @@ R에서 ls()가 맞았음. 근데 파이썬은 ls()하면 디렉토리에 있는
 [어떤 열 i를 특정 열 j 별로 묶어서 보기]
 df.groupby('특정 열 j')['어떤 열 i'].unique()
 df.groupby('특정 열 j').count()
+검색어: 파이썬 df 특정 열 기준으로 묶기 (groupby로 저게 될 줄... 몰랐던건 아닐거고 잊고있었던걸꺼...
+pivot table이 나오길 기대했음.)
+
+검색어: str to datetime
+해결책:
+from datetime import datetime
+datetime.strptime('2022-02-13', '%Y-%m-%d') # 연도를 4자리로 표현할 때는 Y
+
+검색어: datetime.timedelta 값만
+해결책: str(해당 객체)
+사용을 위한 변환:
+int(str(해당 객체).split(' ')[0]) # 이렇게 하면 기간을 숫자로 저장., 참고로 timedelta는 기간 구할 때? 쓸만한 객체.
+
+repr(해당 객체) # 이것도 나왔는데, 이건 그 객체가 출력하는걸 그대로 문자로 바꿔주는 거라 일단 지금 나한텐 별 쓸모가 없음.
+
+
+# 오늘 마지막 쯤 건든거
+파이썬 multiindex...................
