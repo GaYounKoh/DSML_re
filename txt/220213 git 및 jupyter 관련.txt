@@ -1,0 +1,18 @@
+[.isin()]
+# .isin(~~)은 series나 df에만 쓰임, list나 ndarray에는 안쓰이므로 pd.Series나 pd.DataFrame를 통해 형변환해서 사용하자.
+# .isin(~~)의 괄호 안에는 list, ndarray, Series 들어갈 수 있음.
+
+[갑자기 파이썬에 지금까지 사용한 변수를 보는 방법은 없는지 궁금해졌음.]
+https://programmers.co.kr/learn/courses/2/lessons/174
+https://jvvp.tistory.com/978
+근데 안나오는 것 같음.. shell명령어라고 쳐야할듯. R에는 있었는데...
+https://books.google.co.kr/books?id=5deWDgAAQBAJ&pg=PT80&lpg=PT80&dq=%ED%8C%8C%EC%9D%B4%EC%8D%AC+ls(),+pwd&source=bl&ots=2Lm6h40l5y&sig=ACfU3U0b44G9AI37WD3DsD7EQ5MGM8fDJQ&hl=ko&sa=X&ved=2ahUKEwikzePShPz1AhV1rlYBHYaECBcQ6AF6BAgXEAM#v=onepage&q=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20ls()%2C%20pwd&f=false
+
+변수목록확인인가..? 싶어서 export해봤지만 안됨.
+https://ehpub.co.kr/4-%EB%A6%AC%EB%88%85%EC%8A%A4-%ED%99%98%EA%B2%BD-%EB%B3%80%EC%88%98-%EB%AA%A9%EB%A1%9D%EC%9D%84-%ED%99%95%EC%9D%B8%ED%95%A0-%EB%95%8C%EB%8A%94-expert-%EB%AA%85%EB%A0%B9%EC%9D%84-%EC%82%AC%EC%9A%A9/
+
+R에서 ls()가 맞았음. 근데 파이썬은 ls()하면 디렉토리에 있는 파일 리스트 보여줌. 환장..
+
+[어떤 열 i를 특정 열 j 별로 묶어서 보기]
+df.groupby('특정 열 j')['어떤 열 i'].unique()
+df.groupby('특정 열 j').count()
