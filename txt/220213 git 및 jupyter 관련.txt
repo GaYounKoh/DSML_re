@@ -34,3 +34,11 @@ repr(해당 객체) # 이것도 나왔는데, 이건 그 객체가 출력하는�
 
 # 오늘 마지막 쯤 건든거
 파이썬 multiindex...................
+groupby로 내가 만든게 multi index였고, 그걸 부르는 방법을 찾고있음.
+https://blockchainstudy.tistory.com/45
+
+
+# 위치 반환 by list.index(값)
+lab_top.index(51003)
+https://pydole.tistory.com/entry/Python-index-%ED%95%A8%EC%88%98-%EB%B0%B0%EC%97%B4%EC%97%90%EC%84%9C-%EC%9B%90%ED%95%98%EB%8A%94-%EA%B0%92%EC%9D%98-%EC%9C%84%EC%B9%98-%EC%B0%BE%EA%B8%B0
+검색어: 파이썬 index 찾기
