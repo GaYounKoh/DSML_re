@@ -36,11 +36,26 @@ https://blackhippo.tistory.com/entry/Python-print%EB%AC%B8-%EB%8B%A4%EC%96%91%ED
 ```
 
 ```
+220218
+Method1 & 2 allfit 안씀.
+Method2_scaling 안씀.
+
+<그래프 그리는 과정>
+1. absum 함수를 불러옴.
+2. 그 다음 PPL feature list 불러옴.
+3. PPL feature의 index를 불러옴.
+4. absum 적용.
+
+ref.
+[4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb
+```
+
+```
 220221
 axis는 어렵다.
 단순하게 생각해서 데이터의 어떤 부분을 사용할 건지, 그랬을 때의 shape은 어때야 하는지를 고려하면서 하면 쉽다.
 (axis로 sum 등을 했을 때, 어떤 shape이 나오는지 확인하면서 계산하면 됨.)
 
 ref.
-[4] ReLU * Sign * Entropy.ipynb
+[4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb
 ```
