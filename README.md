@@ -58,4 +58,56 @@ axis는 어렵다.
 
 ref.
 [4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb
+
+
+[Library]
+#데이터 분석 라이브러리
+import numpy as np
+print("numpy version: {}". format(np.__version__))
+
+import pandas as pd
+
+#시각화 라이브러리
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+print("matplotlib version: {}". format(mpl.__version__))
+
+import seaborn as sns
+print("seaborn version: {}". format(sns.__version__))
+
+#딥러닝 라이브러리
+import tensorflow as tf
+
+#기타 라이브러리
+import os
+import random
+import time
+
+#경고 에러 무시
+import warnings
+warnings.filterwarnings('ignore')
+print('-'*50)
+
+#시간 확인을 용이하게 해주는 라이브러리
+from tqdm import tqdm
+
+#결과 확인을 용이하게 하기 위한 코드
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+
+
+
+[Series name 정하기]
+Entropy_sr = pd.Series(Entropy_arr, name = 'Entropy')
+
+ref.
+https://ponyozzang.tistory.com/624
+
+
+[df colnames 바꾸는 방법 2가지]
+relu_and_sign.columns = ['feature', 'ReLU', 'Sign'] # [['feature', 'ReLU', 'Sign']]여도 됨.
+relu_and_sign.rename(columns = {'diff':'ReLU', 'diff_preds':'Sign'}, inplace = True)
+
+
+
 ```
