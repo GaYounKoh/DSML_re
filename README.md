@@ -1,13 +1,47 @@
 # DSML_re
 DSML_restart
 
+# 220223
+---
+```
+정리
+7727: 폐렴환자 수, 근데 이제 item sum이 0인 아무 의미 없는 환자들을 제외한.
+4068: 폐렴환자들에게서 발견된 item 수 (4069 -> 4068이 된 이유?)
+
+퇴원을 d-day로 두고 [d-10 ~ d-1]까지를 x의 time에,
+[d-day]는 y에.
+
+x [1: item을 통해 문제 발견(반응 有), 0: item에 대한 반응 無], shape: (7727, 10, 4068)
+y [1:사망, 0:퇴원], shape: (7727, 1) # 1은 d-day를 의미
+
+x,y의 80%를 train에 사용
+x,y의 20%는 test에 사용
+```
+
+<br>
+# 220222
+---
+```
+잊으면 아쉬운 변수이름 생성해주는 globals() 함수
+for i in sequential_data:
+    globals()['{}'.format(i)]
+
+ref.
+[5-2] violin plot.ipynb 에 다시 갖다 놓았으니 확인 바람.
+
+# # 참고로 첨 적용했을 때의 file 경로는
+# # /project/godshu/2021 usw univ contest/가연/211218 (가연)
+```
+
+<br>
+
 ```
 나중에 220209 txt에 올릴 내용.
 변경사항 없을 때, 파일 자체 save안하고 staging & commit 하려고 하면
 On branch master Your branch is up to date with 'origin/master'.  nothing to commit, working tree clean
 이런 에러 남.
 ```
-
+<br>
 ```
 220210.txt
 이미 pull한 상태이거나 혹은 pull할 게 없다면
@@ -17,14 +51,14 @@ staging 돼있는게 없어서 아무 일도 안일어남.
 
 staging, commit, push 얘네는 늘 세트인가봄.
 ```
-
+<br>
 ```
 220211
 Method1, df_all, ReLU, Sign.ipynb 정리해서 putty 업로드 완료.
 ```
 [데이터구조 간단정리??? 참고자료](https://velog.io/@jha0402/Data-structure-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%9D%BC%EB%A9%B4-%EA%BC%AD-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-7%EA%B0%80%EC%A7%80-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)
 
-
+<br>
 ```
 220214
 판다스로 파이썬 기본 설정
@@ -34,7 +68,7 @@ https://mindscale.kr/course/pandas-basic/options/
 https://blackhippo.tistory.com/entry/Python-print%EB%AC%B8-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%98%B5%EC%85%98-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0-%ED%83%88%EC%B6%9C%EB%AC%B8%EC%9E%90-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
 
 ```
-
+<br>
 ```
 220218
 Method1 & 2 allfit 안씀.
@@ -49,7 +83,7 @@ Method2_scaling 안씀.
 ref.
 [4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb
 ```
-
+<br>
 ```
 220221
 axis는 어렵다.
@@ -110,4 +144,7 @@ relu_and_sign.rename(columns = {'diff':'ReLU', 'diff_preds':'Sign'}, inplace = T
 
 
 
+```
+<br>
+```
 ```
