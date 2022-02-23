@@ -1,0 +1,58 @@
+﻿feature i에 대해 1 to 0
+0 to 1
+
+test 나눠서 preds length가 1545 되는 것.
+
+
+
+[평균 0to1 - 평균 1to0]이 아닌
+
+pair FI = [0to1 - 1to0] 으로 생존사망 예측
+0초과: 사망
+0미만: 생존
+
+
+<<생존사망 예측 방법 2가지>>
+pair FI의 (normal graph의) 평균이 0에 비해 어떤지로 생존사망 예측. (기준점:0)
+
+z 통계값 = ((값-평균)/표준편차)으로 0과 비교해서 생존사망 예측
+
+원 벡터에 대한 histogram??????
+
+
+python one sample t test로 ranking
+python one sample t test의 popmean = 기준점, 우리는 기준점이 0임.
+
+scipy.stats.ttest_1samp(
+return statistic을 diff로 쓰면 됨.
+내림차순 정렬시 +: 사망, -: 생존
+
+
+
+
+
+
+** 그래프 읽는 방법?
+
+
+
+<<문제점>>
+예측정확도는 우리 LSTM이 RF보다 좋음.
+RF는 모델 성능보다 FI방법이 좋음.
+LSTM은 모델 성능은 좋지만 FI 개선 필요.
+
+
+
+여러번 train sample 나눠서 학습하는 거 아니니까, 그냥 전체 샘플로 하는게 나을 듯...
+
+
+
+
+
+
+
+
+
+
+
+
