@@ -31,6 +31,8 @@ x,y 모두에 대해 예측.
 [absum 함수는 line plot 그릴 때 쓰는 것.]
 
 
+*** 예측을 정렬했을 때 순위 == Feature Importance (FI)
+
 
 ```
 

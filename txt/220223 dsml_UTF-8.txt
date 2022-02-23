@@ -7,32 +7,48 @@ test 나눠서 preds length가 1545 되는 것.
 
 [평균 0to1 - 평균 1to0]이 아닌
 
-pair FI = [0to1 - 1to0] 으로 생존사망 예측
+pair preds = [0to1 - 1to0] 으로 생존사망 예측
 0초과: 사망
 0미만: 생존
 
 
 <<생존사망 예측 방법 2가지>>
-pair FI의 (normal graph의) 평균이 0에 비해 어떤지로 생존사망 예측. (기준점:0)
+pair preds의 (normal graph의) 평균이 0에 비해 어떤지로 생존사망 예측. (기준점:0)
 
 z 통계값 = ((값-평균)/표준편차)으로 0과 비교해서 생존사망 예측
 
 원 벡터에 대한 histogram??????
 
+-----------------------------------------------------------------
 
-python one sample t test로 ranking
+[python one sample t test로 ranking]
 python one sample t test의 popmean = 기준점, 우리는 기준점이 0임.
 
 scipy.stats.ttest_1samp(diff, 0)
-return statistic을 diff로 쓰면 됨.
+return되는 값 2개 중 statistic을 diff로 쓰면 됨.
 내림차순 정렬시 +: 사망, -: 생존
 
+==> 실제 사용하는 코드:
+from scipy import stats
+stats.ttest_1samp(diff, 0)[0] # 0번째가 statistic, ttest값임.
+
+ref.
+[python ttest]
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_1samp.html
+
+[ttest 이해하기]
+https://m.blog.naver.com/sendmethere/221333164258
+https://blog.minitab.com/ko/adventures-in-statistics-2/understanding-t-tests-t-values-and-t-distributions
 
 
+근데 이제 다시 이거 안쓰고
+diff = [0to1 - 1to0]의 평균으로 ranking
+np.mean(diff)로 ranking
 
 
 
 ** 그래프 읽는 방법?
+https://towardsdatascience.com/violin-plots-explained-fb1d115e023d
 
 
 
