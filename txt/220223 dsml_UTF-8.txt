@@ -23,7 +23,7 @@ z 통계값 = ((값-평균)/표준편차)으로 0과 비교해서 생존사망 �
 python one sample t test로 ranking
 python one sample t test의 popmean = 기준점, 우리는 기준점이 0임.
 
-scipy.stats.ttest_1samp(
+scipy.stats.ttest_1samp(diff, 0)
 return statistic을 diff로 쓰면 됨.
 내림차순 정렬시 +: 사망, -: 생존
 
