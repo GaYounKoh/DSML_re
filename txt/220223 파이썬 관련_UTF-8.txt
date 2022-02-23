@@ -1,0 +1,42 @@
+﻿[검색어: 리스트 변수이름 반환]
+varname 패키지
+from varname import Wrapper
+
+foo = Wrapper(dict())
+
+# foo.name == 'foo'
+# foo.value == {}
+foo.value['bar'] = 2
+################################################
+
+# 변수 이름을 직접 검색
+from varname import nameof
+foo = dict()
+
+fooname = nameof(foo)
+# fooname == 'foo'
+
+
+
+ref.
+http://daplus.net/python-%EB%B3%80%EC%88%98-%EC%9D%B4%EB%A6%84%EC%9D%84-%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A1%9C-%EC%96%BB%EA%B8%B0/
+
+** 함수의 input을 받지는 못함.
+
+
+
+[검색어: python 변수명 추출]
+https://anweh.tistory.com/59 - exec()을 사용하여 동적 코드 실행하기, (문자열을 변수명으로 받기)
+
+
+==> globals()로 변수 명 생성하는걸 <<동적 변수 생성>>이라고 함.
+https://www.delftstack.com/ko/howto/python/python-dynamic-variable-name/
+https://velog.io/@paori/python-%EB%8F%99%EC%A0%81-%EB%B3%80%EC%88%98-%EC%9E%90%EB%8F%99-%EB%B3%80%EC%88%98-%EC%83%9D%EC%84%B1
+
+
+
+[__name__ 변수 학습]
+https://kooc.kaist.ac.kr/python4ai/lecture/164567
+
+[내장함수]
+https://wikidocs.net/32

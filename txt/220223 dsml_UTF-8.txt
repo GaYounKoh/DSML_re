@@ -33,10 +33,10 @@ from scipy import stats
 stats.ttest_1samp(diff, 0)[0] # 0번째가 statistic, ttest값임.
 
 ref.
-[python ttest]
+[python ttest code]
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_1samp.html
 
-[ttest 이해하기]
+[ttest 이해하기 공식 등]
 https://m.blog.naver.com/sendmethere/221333164258
 https://blog.minitab.com/ko/adventures-in-statistics-2/understanding-t-tests-t-values-and-t-distributions
 
@@ -48,6 +48,9 @@ np.mean(diff)로 ranking
 
 
 ** 그래프 읽는 방법?
+[kor]
+https://hleecaster.com/python-seaborn-violinplot/
+[eng]
 https://towardsdatascience.com/violin-plots-explained-fb1d115e023d
 
 
@@ -60,6 +63,7 @@ LSTM은 모델 성능은 좋지만 FI 개선 필요.
 
 
 여러번 train sample 나눠서 학습하는 거 아니니까, 그냥 전체 샘플로 하는게 나을 듯...
+(모델도 전체 fit해서 구한 거로 써야함., tensorflow seed도 바꿔줘야 하는건가..?)
 
 
 
