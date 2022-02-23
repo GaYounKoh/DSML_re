@@ -26,7 +26,8 @@ http://daplus.net/python-%EB%B3%80%EC%88%98-%EC%9D%B4%EB%A6%84%EC%9D%84-%EB%AC%B
 
 
 [검색어: python 변수명 추출]
-https://anweh.tistory.com/59 - exec()을 사용하여 동적 코드 실행하기, (문자열을 변수명으로 받기)
+https://anweh.tistory.com/59 - exec()을 사용하여 동적 코드 실행하기, (문자열을 변수명으로 받기,,,,,, 문자열을 코드로)
+https://nan491.tistory.com/entry/Python-3-eval-%ED%95%A8%EC%88%98%EC%99%80-exec-%ED%95%A8%EC%88%98 보다 이해하기 쉬웠던 링크
 
 
 ==> globals()로 변수 명 생성하는걸 <<동적 변수 생성>>이라고 함.
