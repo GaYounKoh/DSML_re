@@ -176,6 +176,7 @@ feature 간의 correlation 고려한 예측 해보기.
 m1_new = [0->1의 전체 평균] - [1->0의 전체 평균]
 preds를 하면 환자 수 만큼 preds값이 나옴.
 
+LSH M1 New 4가지 scoring 함수 부분 항상 실행해서 결과 얻을 것.
 ```
 <br>
 
