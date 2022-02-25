@@ -177,6 +177,33 @@ m1_new = [0->1의 전체 평균] - [1->0의 전체 평균]
 preds를 하면 환자 수 만큼 preds값이 나옴.
 
 LSH M1 New 4가지 scoring 함수 부분 항상 실행해서 결과 얻을 것.
+
+
+
+
+[CudnnLSTM]
+https://www.tensorflow.org/api_docs/python/tf/compat/v1/keras/layers/CuDNNLSTM
+
+    [CudnnLSTM과 LSTM의 차이]
+    https://stackoverflow.com/questions/49987261/what-is-the-difference-between-cudnnlstm-and-lstm-in-keras
+
+    [CudnnLSTM의 activation function]
+    https://stackoverflow.com/questions/52993397/what-is-the-default-activation-function-of-cudnnlstm-in-tensorflow
+
+https://stackoverflow.com/questions/54559111/different-results-while-training-with-cudnnlstm-compared-to-regular-lstmcell-in
+
+https://github.com/keras-team/keras/issues/13399
+
+
+
+[keras model]
+https://www.tensorflow.org/api_docs/python/tf/keras/Model#predict
+
+[modeling correlation 고려]
+https://orange-code.tistory.com/10
+
+
+
 ```
 <br>
 
