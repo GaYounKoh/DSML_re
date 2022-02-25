@@ -170,6 +170,14 @@ relu_and_sign.rename(columns = {'diff':'ReLU', 'diff_preds':'Sign'}, inplace = T
 ```
 <br>
 
-# 
+# 220225
 ```
+feature 간의 correlation 고려한 예측 해보기.
+m1_new = [0->1의 전체 평균] - [1->0의 전체 평균]
+preds를 하면 환자 수 만큼 preds값이 나옴.
+
+```
+<br>
+
+
 ```
