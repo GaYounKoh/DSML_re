@@ -5,12 +5,14 @@ DSML_restart
 <br>
 
 # 질문
-
 <<220227>>
 preds2_mean_lst.append(np.mean(preds2))
 <span style = 'color : red'>df 만들 때 pred에 이미 평균을 냈는데 평균을 왜 또 내..?</span>
 
 <br>
+
+# cudnnLSTM
+[cudnnLSTM](https://buomsoo-kim.github.io/keras/2019/08/02/Easy-deep-learning-with-Keras-22.md/)
 
 # 220223
 ```
