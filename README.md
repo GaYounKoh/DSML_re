@@ -4,6 +4,14 @@ DSML_restart
 <i><b><q>중요한 내용</q></b>은 앞으로 뺌</i>
 <br>
 
+# 질문
+
+<<220227>>
+preds2_mean_lst.append(np.mean(preds2))
+<span style = 'color : red'>df 만들 때 pred에 이미 평균을 냈는데 평균을 왜 또 내..?</span>
+
+<br>
+
 # 220223
 ```
 정리
