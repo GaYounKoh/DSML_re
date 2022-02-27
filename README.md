@@ -208,4 +208,18 @@ https://orange-code.tistory.com/10
 <br>
 
 
+# 220227
+```
+pandas
+https://opentutorials.org/module/3873/23171
+```
+<br>
+
+#
+```
+```
+<br>
+
+
+```
 ```
