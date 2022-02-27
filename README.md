@@ -219,10 +219,28 @@ https://orange-code.tistory.com/10
 
 
 # 220227
-```
-pandas
+
+[pandas df]
 https://opentutorials.org/module/3873/23171
-```
+
+[CuDNNLSTM]
+[순환형 신경망 8 - CuDNNGRU & CuDNNLSTM](https://buomsoo-kim.github.io/keras/2019/08/02/Easy-deep-learning-with-Keras-22.md/)
+
+[Tensorflow CuDNN RNN vs 그냥 RNN 비교](https://utto.tistory.com/18)
+
+[Tensorflow와 그 버전과 호환되는 CUDA, cuDNN까지 설치하는 법](https://coding-groot.tistory.com/87)
+
+[07) 패딩(Padding)](https://wikidocs.net/83544)
+
+[가변 길이 입력 시퀀스에 대한 데이터 준비](http://www.nextobe.com/2020/05/14/%EA%B0%80%EB%B3%80-%EA%B8%B8%EC%9D%B4-%EC%9E%85%EB%A0%A5-%EC%8B%9C%ED%80%80%EC%8A%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A4%80%EB%B9%84/)
+
+[07) 케라스(Keras) 훑어보기](https://wikidocs.net/32105)
+
+[4) IMDB 리뷰 감성 분류하기(IMDB Movie Review Sentiment Analysis)](https://wikidocs.net/24586)
+
+[Sequential 모델](https://www.tensorflow.org/guide/keras/sequential_model?hl=ko)
+
+
 <br>
 
 #
