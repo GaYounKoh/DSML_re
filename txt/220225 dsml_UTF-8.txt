@@ -1,0 +1,31 @@
+2가지
+- 1번 방법 * entropy^lambda
+- lambda로 조절 
+
+<우리의 계획>
+- lambda = 0이면 entropy 영향 0
+- lambda = 1이면 entropy 비중 상승
+
+- 환자별로 비중이 높은 것을 고를건지
+- 중요한 feature를 고를 건지 가변적인 score 
+
+- lambda는 정하기 마련...
+
+<정량적 비교>
+m1, m1_entropy, m1_sequential, m1_entropy_sequential, rftop10
+
+<정성적 비교>
+m1, m1_entropy
+
+m1 : morpin..significant marker 탐지
+m1_entropy : significant + 비중이 높은 marker 탐지
+-> 비중이 높은 marker를 잡고 싶을수록 lambda를 높게 주기 
+
+<모델>
+- cudnn LSTM -> 속도 향상 기대 / 정확도 감소 우려
+- hyperparameter 조절이 제한적임
+
+- batch size, multi-prosessing, worker 조정으로 시간 감소 가능
+
+- nohub / tmux 
+
