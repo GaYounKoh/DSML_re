@@ -118,16 +118,17 @@ ref.
 <br>
 
 # 220221
+
+axis는 어렵다.<br>
+단순하게 생각해서 데이터의 어떤 부분을 사용할 건지, 그랬을 때의 shape은 어때야 하는지를 고려하면서 하면 쉽다.<br>
+(axis로 sum 등을 했을 때, 어떤 shape이 나오는지 확인하면서 계산하면 됨.)<br><br>
+
+    ref.
+    [4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb
+
+
+[Library]<br>
 ```
-axis는 어렵다.
-단순하게 생각해서 데이터의 어떤 부분을 사용할 건지, 그랬을 때의 shape은 어때야 하는지를 고려하면서 하면 쉽다.
-(axis로 sum 등을 했을 때, 어떤 shape이 나오는지 확인하면서 계산하면 됨.)
-
-ref.
-[4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb
-
-
-[Library]
 #데이터 분석 라이브러리
 import numpy as np
 print("numpy version: {}". format(np.__version__))
@@ -175,7 +176,7 @@ if gpus:
         # 프로그램 시작시에 메모리 증가가 설정되어야만 합니다
         print(e)
 
-
+```
 
 [Series name 정하기]
 Entropy_sr = pd.Series(Entropy_arr, name = 'Entropy')
@@ -190,11 +191,11 @@ relu_and_sign.rename(columns = {'diff':'ReLU', 'diff_preds':'Sign'}, inplace = T
 
 
 
-```
+
 <br>
 
 # 220225
-```
+
 feature 간의 correlation 고려한 예측 해보기.
 m1_new = [0->1의 전체 평균] - [1->0의 전체 평균]
 preds를 하면 환자 수 만큼 preds값이 나옴.
@@ -204,38 +205,31 @@ LSH M1 New 4가지 scoring 함수 부분 항상 실행해서 결과 얻을 것.
 
 
 
-[CudnnLSTM]
-https://www.tensorflow.org/api_docs/python/tf/compat/v1/keras/layers/CuDNNLSTM
+[CudnnLSTM](https://www.tensorflow.org/api_docs/python/tf/compat/v1/keras/layers/CuDNNLSTM)
 
-    [CudnnLSTM과 LSTM의 차이]
-    https://stackoverflow.com/questions/49987261/what-is-the-difference-between-cudnnlstm-and-lstm-in-keras
+>>[CudnnLSTM과 LSTM의 차이](https://stackoverflow.com/questions/49987261/what-is-the-difference-between-cudnnlstm-and-lstm-in-keras)
 
-    [CudnnLSTM의 activation function]
-    https://stackoverflow.com/questions/52993397/what-is-the-default-activation-function-of-cudnnlstm-in-tensorflow
+>>[CudnnLSTM의 activation function](https://stackoverflow.com/questions/52993397/what-is-the-default-activation-function-of-cudnnlstm-in-tensorflow)
 
-https://stackoverflow.com/questions/54559111/different-results-while-training-with-cudnnlstm-compared-to-regular-lstmcell-in
+[CudnnLSTM 2](https://stackoverflow.com/questions/54559111/different-results-while-training-with-cudnnlstm-compared-to-regular-lstmcell-in)
 
-https://github.com/keras-team/keras/issues/13399
+[CudnnLSTM 3](https://github.com/keras-team/keras/issues/13399)
+<br>
+<br>
+<br>
+[keras model](https://www.tensorflow.org/api_docs/python/tf/keras/Model#predict)
 
-
-
-[keras model]
-https://www.tensorflow.org/api_docs/python/tf/keras/Model#predict
-
-[modeling correlation 고려]
-https://orange-code.tistory.com/10
+[modeling correlation 고려](https://orange-code.tistory.com/10)
 
 
 
-```
+
 <br>
 
 
 # 220227
 
-[pandas df] <br>
-https://opentutorials.org/module/3873/23171
-
+[pandas df](https://opentutorials.org/module/3873/23171)<br><br>
 [CuDNNLSTM] <br>
 [순환형 신경망 8 - CuDNNGRU & CuDNNLSTM](https://buomsoo-kim.github.io/keras/2019/08/02/Easy-deep-learning-with-Keras-22.md/)
 
@@ -262,12 +256,53 @@ https://opentutorials.org/module/3873/23171
 
 계층적(stratified) cross validation : sklearn.model_selection.StratifiedShuffleSplit
 
+[dic to df] <br>
 [dic to df](http://daplus.net/python-python-dict%EB%A5%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/) <br>
-
 df = pd.DataFrame(dic.items(), columns=['key', 'value'])
+
+[df 원하는 위치에 column 추가](https://steadiness-193.tistory.com/94)
+df.insert(0, 'feature', dic.keys())
+
+[today 참고 논문]<br>
+[Correlation-based Feature Selection 기법과 RF모델을 활용한 BMI 예측에 관한 연구](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201932365650170&SITE=CLICK)<br>
+[Feature Selection이란?](https://subinium.github.io/feature-selection/)<br>
+
+<br><br>
+
+# 백그라운드에서 코드 돌리는 방법
+## tmux 사용법
+```
+우선 test.py를 만들어야함. (tqdm)
+
+vi test.py # vi는 편집창
+i #누르고 편집 시작
+esc
+:wq        # 여기까지 하면 .py파일이 저장된 것. (저장하고 나간다.)
+```
+
+## 실행 방법
+```
+tmux new -s 지어주고싶은 tmux이름
+python test.py                        # 하면 아까 만든 test.py 실행됨. # 실수하면 exit()
+exit                                  # 하면 tmux 끝내는 것. tmux가 날라감.
+
+
+tmux attach -t 실행하고싶은 tmux이름    # 서버에 접속
+
+
+[파일 열고 편집창 명령어]
+ctrl + c          # 코드 실행 강제 종료
+q                 # 바꾼 거 없을 때 그냥 나간다.
+q!                # 강제종료, 그냥 나가짐.
+
+
+[코드가 잘못됐다면 py file 바꿔야....]
+```
+
 
 <br>
 
 
 ```
+
 ```
