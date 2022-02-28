@@ -259,6 +259,9 @@ https://opentutorials.org/module/3873/23171
 # 220228
 ```
 %%time #cell의 맨 위에서 실행해야함.
+
+계층적(stratified) cross validation : sklearn.model_selection.StratifiedShuffleSplit
+
 ```
 <br>
 
