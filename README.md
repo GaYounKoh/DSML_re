@@ -162,6 +162,19 @@ from tqdm import tqdm
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 
+# GPU
+#https://www.tensorflow.org/guide/gpu#allowing_gpu_memory_growth
+#프로세스의 요구량만큼 메모리 사용 설정
+gpus = tf.config.experimental.list_physical_devices('GPU')
+print(gpus)
+if gpus:
+    try:
+        for i in range(len(gpus)):
+            tf.config.experimental.set_memory_growth(gpus[i], True)
+    except RuntimeError as e:
+        # 프로그램 시작시에 메모리 증가가 설정되어야만 합니다
+        print(e)
+
 
 
 [Series name 정하기]
@@ -220,10 +233,10 @@ https://orange-code.tistory.com/10
 
 # 220227
 
-[pandas df]
+[pandas df] <br>
 https://opentutorials.org/module/3873/23171
 
-[CuDNNLSTM]
+[CuDNNLSTM] <br>
 [순환형 신경망 8 - CuDNNGRU & CuDNNLSTM](https://buomsoo-kim.github.io/keras/2019/08/02/Easy-deep-learning-with-Keras-22.md/)
 
 [Tensorflow CuDNN RNN vs 그냥 RNN 비교](https://utto.tistory.com/18)
@@ -243,8 +256,9 @@ https://opentutorials.org/module/3873/23171
 
 <br>
 
-#
+# 220228
 ```
+%%time #cell의 맨 위에서 실행해야함.
 ```
 <br>
 
