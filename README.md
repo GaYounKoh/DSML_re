@@ -257,12 +257,15 @@ https://opentutorials.org/module/3873/23171
 <br>
 
 # 220228
-```
+
 %%time #cell의 맨 위에서 실행해야함.
 
 계층적(stratified) cross validation : sklearn.model_selection.StratifiedShuffleSplit
 
-```
+[dic to df](http://daplus.net/python-python-dict%EB%A5%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/) <br>
+
+df = pd.DataFrame(dic.items(), columns=['key', 'value'])
+
 <br>
 
 
