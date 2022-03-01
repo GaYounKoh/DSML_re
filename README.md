@@ -91,20 +91,18 @@ Method1, df_all, ReLU, Sign.ipynb 정리해서 putty 업로드 완료.
 <br>
 
 # 220214
-```
-판다스로 파이썬 기본 설정
-https://mindscale.kr/course/pandas-basic/options/
 
-출력 관련
-https://blackhippo.tistory.com/entry/Python-print%EB%AC%B8-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%98%B5%EC%85%98-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0-%ED%83%88%EC%B6%9C%EB%AC%B8%EC%9E%90-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
+[판다스로 파이썬 기본 설정](https://mindscale.kr/course/pandas-basic/options/)
 
-```
+[출력 관련](https://blackhippo.tistory.com/entry/Python-print%EB%AC%B8-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%98%B5%EC%85%98-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0-%ED%83%88%EC%B6%9C%EB%AC%B8%EC%9E%90-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+
+
 <br>
 
 # 220218
-```
-Method1 & 2 allfit 안씀.
-Method2_scaling 안씀.
+
+Method1 & 2 allfit 안씀.<br>
+Method2_scaling 안씀.<br>
 
 <그래프 그리는 과정>
 1. absum 함수를 불러옴.
@@ -114,7 +112,7 @@ Method2_scaling 안씀.
 
 ref.
 [4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb
-```
+
 <br>
 
 # 220221
