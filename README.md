@@ -15,12 +15,12 @@ DSML_restart
 
 # 안 보는 자료
 6-1, 6-2는 각각 조합과 CuDNNLSTM 관련 내용이므로 지금은 일단 버림
-<br>
+<br><br>
 
 
 # cudnnLSTM
 [cudnnLSTM](https://buomsoo-kim.github.io/keras/2019/08/02/Easy-deep-learning-with-Keras-22.md/)
-<br>
+<br><br><br>
 
 # 220223
 ```
