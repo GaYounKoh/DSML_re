@@ -305,7 +305,7 @@ esc
 ```
 
 ## 실행 방법
-```
+```py
 tmux new -s 지어주고싶은 tmux이름
 python test.py                        # 하면 아까 만든 test.py 실행됨. # 실수하면 exit()
 exit                                  # 하면 tmux 끝내는 것. tmux가 날라감.
@@ -319,13 +319,15 @@ ctrl + c          # 코드 실행 강제 종료
 q                 # 바꾼 거 없을 때 그냥 나간다.
 q!                # 강제종료, 그냥 나가짐.
 
-
-[코드가 잘못됐다면 py file 바꾸면 됨.]
 ```
+[코드가 잘못됐다면 py file 바꾸면 됨.]
 
 
 <br>
 
+# 220303
+
+[numpy sorting](https://rfriend.tistory.com/357)
 
 ```
 
