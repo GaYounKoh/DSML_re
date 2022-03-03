@@ -5,14 +5,22 @@ DSML_restart
 <br>
 
 # 질문
-<<220227>>
-preds2_mean_lst.append(np.mean(preds2))
-<span style = 'color : red'>df 만들 때 pred에 이미 평균을 냈는데 평균을 왜 또 내..?</span>
+<<220227>> <br>
+~~preds2_mean_lst.append(np.mean(preds2))~~ <br>
+~~<span style = 'color : red'>예측 for문에서 df 만들 때 pred에 이미 평균을 냈는데 평균을 왜 또 내..?</span>~~ <br>
+==> for문이 feature별로 돌아가면 예측은 환자수만큼 나와.
+그니까 feature 별로 하나의 값으로 보려면 나온 값들의 평균으로 보는게 가장 좋음.
 
 <br>
 
+# 안 보는 자료
+6-1, 6-2는 각각 조합과 CuDNNLSTM 관련 내용이므로 지금은 일단 버림
+<br>
+
+
 # cudnnLSTM
 [cudnnLSTM](https://buomsoo-kim.github.io/keras/2019/08/02/Easy-deep-learning-with-Keras-22.md/)
+<br>
 
 # 220223
 ```
