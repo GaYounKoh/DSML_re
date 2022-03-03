@@ -331,5 +331,20 @@ q!                # 강제종료, 그냥 나가짐.
 ```python
 np.sort(arr)
 ```
+<br>
+
+[axes, axis???: axes는 그림판 안의 그림판?; axis는 말 그대로 축이 맞음](https://wikidocs.net/14604) <br>
+
+[그림 여러개] <br>
+[fig.add_subplot(rows, cols, python_idx+1)](https://artiiicy.tistory.com/64) <br>
+
+[matplotlib 축 범위 지정 plt.xlim()](https://codetorial.net/matplotlib/axis_range.html) <br>
+[ax.set_xlim()](https://www.delftstack.com/ko/howto/matplotlib/how-to-set-limit-for-axes-in-matplotlib/) <br>
+[plt.axis('off') # 축 지우기](https://jimmy-ai.tistory.com/18) <br>
+
+[labels](https://wikidocs.net/92089) <br>
+[ax.set_xticklabels](https://www.delftstack.com/ko/howto/matplotlib/how-to-rotate-x-axis-tick-label-text-in-matplotlib/#xticks-%25EB%25A0%2588%25EC%259D%25B4%25EB%25B8%2594-%25ED%2585%258D%25EC%258A%25A4%25ED%258A%25B8%25EB%25A5%25BC-%25ED%259A%258C%25EC%25A0%2584%25ED%2595%2598%25EB%258A%2594-ax.set_xticklabels-xlabels-rotation) <br>
+
+[legend 투명도 plt.rcParams["legend.framealpha"]= None이 default, 0.5등 float으로 써주면 됨.](https://kongdols-room.tistory.com/89)<br>
 
 <br>
