@@ -346,5 +346,6 @@ np.sort(arr)
 [ax.set_xticklabels](https://www.delftstack.com/ko/howto/matplotlib/how-to-rotate-x-axis-tick-label-text-in-matplotlib/#xticks-%25EB%25A0%2588%25EC%259D%25B4%25EB%25B8%2594-%25ED%2585%258D%25EC%258A%25A4%25ED%258A%25B8%25EB%25A5%25BC-%25ED%259A%258C%25EC%25A0%2584%25ED%2595%2598%25EB%258A%2594-ax.set_xticklabels-xlabels-rotation) <br>
 
 [legend 투명도 plt.rcParams["legend.framealpha"]= None이 default, 0.5등 float으로 써주면 됨.](https://kongdols-room.tistory.com/89)<br>
+[plt legend ref](https://matplotlib.org/stable/api/legend_api.html)
 
 <br>
