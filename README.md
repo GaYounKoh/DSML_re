@@ -134,7 +134,7 @@ axis는 어렵다.<br>
 
 
 [Library]<br>
-```
+```python
 #데이터 분석 라이브러리
 import numpy as np
 print("numpy version: {}". format(np.__version__))
@@ -148,6 +148,24 @@ print("matplotlib version: {}". format(mpl.__version__))
 
 import seaborn as sns
 print("seaborn version: {}". format(sns.__version__))
+
+
+#한글설정
+import matplotlib.font_manager as fm
+
+font_dirs = ['/usr/share/fonts/truetype/nanum', ]
+font_files = fm.findSystemFonts(fontpaths=font_dirs)
+
+for font_file in font_files:
+    fm.fontManager.addfont(font_file)
+    
+# 한글 출력을 위해서 폰트 옵션을 설정합니다.
+# "axes.unicode_minus" : 마이너스가 깨질 것을 방지
+
+sns.set(font="NanumBarunGothic", 
+        rc={"axes.unicode_minus":False},
+        style='darkgrid')
+
 
 #딥러닝 라이브러리
 import tensorflow as tf
