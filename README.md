@@ -328,7 +328,8 @@ q!                # 강제종료, 그냥 나가짐.
 # 220303
 
 [numpy sorting](https://rfriend.tistory.com/357)
-
+```python
+np.sort(arr)
 ```
 
-```
+<br>
