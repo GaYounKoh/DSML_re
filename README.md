@@ -349,3 +349,15 @@ np.sort(arr)
 [plt legend ref](https://matplotlib.org/stable/api/legend_api.html)
 
 <br>
+
+# 220307
+
+[visualization] <br>
+[레전드 위치](https://codetorial.net/matplotlib/set_legend.html)<br>
+[legend 작성 공식 ref](https://matplotlib.org/3.5.1/api/_as_gen/matplotlib.axes.Axes.legend.html)<br>
+[그래프 색 종류](https://wikidocs.net/92085)<br>
+[그래프 위에 text 쓰기](https://seong6496.tistory.com/104)<br>
+[text 위치 조정 verticalalignment = <top, bottom, center, baseline>, horizontalalignment = <center, left, right>](https://pyvisuall.tistory.com/52)<br>
+[레전드, 복잡해서 안봄](https://zephyrus1111.tistory.com/23)<br>
+[파이썬 그래프 마커 종류](https://jiwoncho20213135python.tistory.com/11)<br>
+[파이썬 f-string으로 소수점 관리 f'{변수:.2f}'](https://blockdmask.tistory.com/534)<br>
