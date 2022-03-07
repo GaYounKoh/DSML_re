@@ -2,19 +2,19 @@
 DSML_restart
 <br><br>
 <i><b><q>중요한 내용</q></b>은 앞으로 뺌</i>
-<br>
+<br><br><br><br>
 
 # 질문
 <<220227>> <br>
 ~~preds2_mean_lst.append(np.mean(preds2))~~ <br>
 ~~<span style = 'color : red'>예측 for문에서 df 만들 때 pred에 이미 평균을 냈는데 평균을 왜 또 내..?</span>~~ <br>
-==> for문이 feature별로 돌아가면 예측은 환자수만큼 나와.
+==> for문이 feature별로 돌아가면 예측은 환자수만큼 나와. <br>
 그니까 feature 별로 하나의 값으로 보려면 나온 값들의 평균으로 보는게 가장 좋음.
 
 <br>
 
 # 안 보는 자료
-6-1, 6-2는 각각 조합과 CuDNNLSTM 관련 내용이므로 지금은 일단 버림
+[6-1], [6-2]는 각각 조합과 CuDNNLSTM 관련 내용이므로 지금은 일단 버림
 <br><br>
 
 
@@ -109,8 +109,8 @@ Method1, df_all, ReLU, Sign.ipynb 정리해서 putty 업로드 완료.
 
 # 220218
 
-Method1 & 2 allfit 안씀.<br>
-Method2_scaling 안씀.<br>
+Method1 & 2 allfit 안씀. <br>
+Method2_scaling 안씀. <br>
 
 <그래프 그리는 과정>
 1. absum 함수를 불러옴.
@@ -118,8 +118,8 @@ Method2_scaling 안씀.<br>
 3. PPL feature의 index를 불러옴.
 4. absum 적용.
 
-ref.
-[4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb
+ref. <br>
+[4] Method1 = ReLU x Sign x Entropy, graph까지.ipynb <br>
 
 <br>
 
@@ -201,17 +201,18 @@ if gpus:
         print(e)
 
 ```
+<br>
 
-[Series name 정하기]
-Entropy_sr = pd.Series(Entropy_arr, name = 'Entropy')
+[Series name 정하기] <br>
+Entropy_sr = pd.Series(Entropy_arr, name = 'Entropy') <br>
 
-ref.
-https://ponyozzang.tistory.com/624
+ref. <br>
+https://ponyozzang.tistory.com/624 <br>
 
 
-[df colnames 바꾸는 방법 2가지]
-relu_and_sign.columns = ['feature', 'ReLU', 'Sign'] # [['feature', 'ReLU', 'Sign']]여도 됨.
-relu_and_sign.rename(columns = {'diff':'ReLU', 'diff_preds':'Sign'}, inplace = True)
+[df colnames 바꾸는 방법 2가지] <br>
+relu_and_sign.columns = ['feature', 'ReLU', 'Sign'] # [['feature', 'ReLU', 'Sign']]여도 됨. <br>
+relu_and_sign.rename(columns = {'diff':'ReLU', 'diff_preds':'Sign'}, inplace = True) <br>
 
 
 
@@ -278,18 +279,21 @@ LSH M1 New 4가지 scoring 함수 부분 항상 실행해서 결과 얻을 것.
 
 %%time #cell의 맨 위에서 실행해야함.
 
-계층적(stratified) cross validation : sklearn.model_selection.StratifiedShuffleSplit
-
+계층적(stratified) cross validation :<br>
+```python
+sklearn.model_selection.StratifiedShuffleSplit <br>
+```
+<br>
 [dic to df] <br>
 [dic to df](http://daplus.net/python-python-dict%EB%A5%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/) <br>
-df = pd.DataFrame(dic.items(), columns=['key', 'value'])
+df = pd.DataFrame(dic.items(), columns=['key', 'value']) <br>
 
-[df 원하는 위치에 column 추가](https://steadiness-193.tistory.com/94)
+[df 원하는 위치에 column 추가](https://steadiness-193.tistory.com/94) <br>
 df.insert(0, 'feature', dic.keys())
 
-[today 참고 논문]<br>
-[Correlation-based Feature Selection 기법과 RF모델을 활용한 BMI 예측에 관한 연구](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201932365650170&SITE=CLICK)<br>
-[Feature Selection이란?](https://subinium.github.io/feature-selection/)<br>
+[today 참고 논문] <br>
+[Correlation-based Feature Selection 기법과 RF모델을 활용한 BMI 예측에 관한 연구](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201932365650170&SITE=CLICK) <br>
+[Feature Selection이란?](https://subinium.github.io/feature-selection/) <br>
 
 <br><br>
 
