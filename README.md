@@ -365,3 +365,17 @@ np.sort(arr)
 [레전드, 복잡해서 안봄](https://zephyrus1111.tistory.com/23)<br>
 [파이썬 그래프 마커 종류](https://jiwoncho20213135python.tistory.com/11)<br>
 [파이썬 f-string으로 소수점 관리 f'{변수:.2f}'](https://blockdmask.tistory.com/534)<br>
+
+<br>
+
+# 220310
+검색어>> 모델 종류를 알고싶으면 종류를 뒤에 붙일 것. <br>
+naive bayes 알고리즘 종류 <br>
+[scikit learn에서 제공하는 naive bayes 알고리즘 종류](https://docs.likejazz.com/multinomial-naive-bayes/) <br>
+
+scikit learn multinomial naive bayes <br>
+[sklearn.naive_bayes.MultinomialNB official doc](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html) <br>
+
+bidirectional lstm 설명 <br>
+[bidirectional lstm 설명](https://wiserloner.tistory.com/1276) <br>
+[tf.keras.layers.Bidirectional official doc](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional) <br>
