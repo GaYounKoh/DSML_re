@@ -1,0 +1,22 @@
+﻿method (일반적인, 모든 시계열 데이터에 적용할 수 있는 FI) 전체 과정에 대한 그림
+
+알고리즘: 특정한 데이터에 의존돼있는 건 아님.
+1,0으로 들어간
+
+cv 평균값
+parameter는 기본값으로
+10일치를 일렬로 만들어서
+
+(accuracy 대신해서) roc-auc계산
+
+
+검색어>> 모델 종류를 알고싶으면 종류를 뒤에 붙일 것.
+naive bayes 알고리즘 종류
+[scikit learn에서 제공하는 naive bayes 알고리즘 종류](https://docs.likejazz.com/multinomial-naive-bayes/)
+
+scikit learn multinomial naive bayes
+[sklearn.naive_bayes.MultinomialNB official doc](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
+
+bidirectional lstm 설명
+[bidirectional lstm 설명](https://wiserloner.tistory.com/1276)
+[tf.keras.layers.Bidirectional official doc](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional)
