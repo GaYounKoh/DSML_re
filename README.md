@@ -379,3 +379,9 @@ scikit learn multinomial naive bayes <br>
 bidirectional lstm 설명 <br>
 [bidirectional lstm 설명](https://wiserloner.tistory.com/1276) <br>
 [tf.keras.layers.Bidirectional official doc](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional) <br>
+
+overleaf 사용법 표 위치 조정 <br>
+[overleaf 사용법 표 위치 고정](https://blog.naver.com/PostView.nhn?blogId=ljy5995&logNo=221710034550&redirect=Dlog&widgetTypeCall=true&directAccess=false) <br>
+
+overleaf htp <br>
+[overleaf 위치 조정 관련](https://tex.stackexchange.com/questions/35125/how-to-use-the-placement-options-t-h-with-figures) <br>
