@@ -394,4 +394,6 @@ overleaf htp <br>
 
 [LaTex 그림 배치 subplot](http://willkwon.dothome.co.kr/wp-content/uploads/2018/01/lecture3.pdf) <br>
 [sns.lineplot(linestyle, marker)](https://wikidocs.net/44312) <br>
+[파이썬 텍스트 파일에서 특정 패턴 다음에 오는 텍스트 가져오기; list.index("~~")+1](https://sancs.tistory.com/21)<br>
+[파이썬 문자열 찾기; startswith, endswith](https://chanheumkoon.tistory.com/entry/Python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%B0%BE%EA%B8%B0-find-rfind-startswith-endswith)
 <br>
