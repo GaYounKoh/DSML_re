@@ -392,4 +392,6 @@ overleaf htp <br>
 
 # 220311
 
-[LaTex 그림 배치 subplot](http://willkwon.dothome.co.kr/wp-content/uploads/2018/01/lecture3.pdf)
+[LaTex 그림 배치 subplot](http://willkwon.dothome.co.kr/wp-content/uploads/2018/01/lecture3.pdf) <br>
+[sns.lineplot(linestyle, marker)](https://wikidocs.net/44312) <br>
+<br>
