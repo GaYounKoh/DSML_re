@@ -385,3 +385,9 @@ overleaf 사용법 표 위치 조정 <br>
 
 overleaf htp <br>
 [overleaf 위치 조정 관련](https://tex.stackexchange.com/questions/35125/how-to-use-the-placement-options-t-h-with-figures) <br>
+
+<br>
+
+# 220311
+
+[LaTex 그림 배치 subplot](http://willkwon.dothome.co.kr/wp-content/uploads/2018/01/lecture3.pdf)
