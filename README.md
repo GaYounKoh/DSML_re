@@ -404,4 +404,9 @@ overleaf htp <br>
 [EMR과 EHR의 차이](https://www.jobindexworld.com/circle/view/12096) <br>
 
 * 오늘의 issue
-정보과학회에 제출할 국내논문 쓰기로 함!!! (~220421?)
+정보과학회에 제출할 국내논문 쓰기로 함!!! (~220421?) <br>
+<br>
+
+# 220324
+
+[ensemble learning에 대한 깔끔하고 이해하기 쉬운 설명](https://libertegrace.tistory.com/entry/Classification-2-%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5Ensemble-Learning-Voting%EA%B3%BC-Bagging) <br>
