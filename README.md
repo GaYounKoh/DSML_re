@@ -410,3 +410,18 @@ overleaf htp <br>
 # 220324
 
 [ensemble learning에 대한 깔끔하고 이해하기 쉬운 설명](https://libertegrace.tistory.com/entry/Classification-2-%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5Ensemble-Learning-Voting%EA%B3%BC-Bagging) <br>
+
+<br>
+
+# 220325
+[에러메세지 'EarlyStopping' object has no attribute '_implements_train_batch_hooks': 클래스 import시 keras 앞에 tensorflow 붙이면 해결](https://tsy0668.tistory.com/23) <br>
+
+[에러메세지 'module' object is not callable: class가 아닌 모듈만 불러왔을 때 모듈.class로해서 class 써주면 문제없음. 1](https://iksflow.tistory.com/85) <br>
+
+[에러메세지 'module' object is not callable: class가 아닌 모듈만 불러왔을 때 모듈.class로해서 class 써주면 문제없음. 2](https://bewan.tistory.com/62)
+<br>
+
+> class가 아닌 모듈만 불러왔을 때 <br>
+== <span style='color:red'>from 모듈 import class </span> 안하고 그냥 <span style='color:red'>import 모듈</span>만 했을 때!!!
+
+> module이 class를 포함하는 더 큰 개념.
