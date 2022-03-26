@@ -407,10 +407,17 @@ overleaf htp <br>
 정보과학회에 제출할 국내논문 쓰기로 함!!! (~220421?) <br>
 <br>
 
+# 220322
+[permutation FI의 핵심](https://soohee410.github.io/iml_permutation_importance) <br>
+그 feature의 값들을 무작위로 섞어서(permutation) 그 feature를 노이즈로 만드는 것입니다! <br>
+우리가 사용한 방법: item을 정해서(item으로 for loop 돌리는 것..) 환자끼리 그 아이템의 one hot을 무작위로 바꾸는 것. <br>
+<br>
+
 # 220324
 
 [ensemble learning에 대한 깔끔하고 이해하기 쉬운 설명](https://libertegrace.tistory.com/entry/Classification-2-%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5Ensemble-Learning-Voting%EA%B3%BC-Bagging) <br>
 
+[교수님 meeting 때 본 블로그 for adaboosting, adaboost 정리 잘 돼있음.](https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/) <br>
 <br>
 
 # 220325
@@ -425,3 +432,4 @@ overleaf htp <br>
 == <span style='color:red'>from 모듈 import class </span> 안하고 그냥 <span style='color:red'>import 모듈</span>만 했을 때!!!
 
 > module이 class를 포함하는 더 큰 개념.
+<br>
