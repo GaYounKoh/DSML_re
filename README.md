@@ -429,7 +429,32 @@ overleaf htp <br>
 <br>
 
 > class가 아닌 모듈만 불러왔을 때 <br>
-== <span style='color:red'>from 모듈 import class </span> 안하고 그냥 <span style='color:red'>import 모듈</span>만 했을 때!!!
+== <span style='color:red'>from 모듈 import class </span> 안하고 그냥 <span style='color:red'>import 모듈</span>만 했을 때!!! <br>
 
 > module이 class를 포함하는 더 큰 개념.
 <br>
+
+# 220326
+[검색어: adaboost lstm 학습 안되는 이유] <br>
+[혼합 약한 분류기를 이용한 AdaBoost 알고리즘의 성능 개선 방법](https://www.koreascience.kr/article/JAKO200918133142360.pdf)<br>
+> 검출기의 성능은 <span style='color:red'>약한 분류기의 성능</span>에 영향을 받는다. 약한 분류기의 성능이 <span style='color:red'>너무 약하거나 강하더라도</span> 검출 성능이 <u>떨어진다.<u>
+<br>
+
+[머신러닝 boosting allgorithm](https://hyunlee103.tistory.com/25)<br>
+
+lstm과 약한 분류기? 약한 학습기? <br>
+[머신러닝에 관한 부스팅과 AdaBoost](https://soobarkbar.tistory.com/42) <br>
+> AdaBoost 돌아가는 과정, 개념 설명
+<br>
+
+[머신러닝의 그래디언트 부스팅 알고리즘에 대한 친절한 소개](https://soobarkbar.tistory.com/41) <br>
+[Keras에서 LSTM 네트워크에 대한 입력데이터를 재구성하는 방법](https://soobarkbar.tistory.com/46) <br>
+[암호화폐 가격 예측을 위한 딥러닝 앙상블 모델링: Deep 4-LSTM Ensemble Model](http://www.koreascience.or.kr/article/JAKO202011236744256.pdf) <br>
+> 4. 모델링 결과 및 성능평가 부분이 맘에 듦.
+
+[AdaBoost-LSTM 논문 abstract](https://link.springer.com/chapter/10.1007/978-3-319-93713-7_55) <br>
+
+[AdaBoost 개념, 이론](https://dodonam.tistory.com/332) <br>
+
+[머신러닝 다양한 모델을 결합한 앙상블 학습](https://dev-youngjun.tistory.com/6) <br>
+
