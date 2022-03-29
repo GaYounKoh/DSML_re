@@ -494,7 +494,14 @@ loss나 acc val이 가장 좋은 값이 나왔을 때 patience만큼 더 해보�
 
 * get_params()
 
+* lambda에 들어가는 (data에 적용하는) model이 이미 실행된 함수였던게 오늘의 가장 큰 문제였다.
 get_model() 와 get_model차이... <br>
 lambda에는 이미 실행된 함수가 들어가면 안됨. <br>
 get_model()를 한 모델을 lambda에 집어넣어 버리면 함수가 이미 실행된게 들어가서 문제였던 것... <br>
 <br>
+
+* hp 바꿔가면서 모델 실행해올 것.
+
+* Permutation FI 짜보기...
+
+* classifier 횟수(n_estimator)는 못 세는지..? 
