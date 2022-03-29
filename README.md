@@ -492,8 +492,9 @@ loss나 acc val이 가장 좋은 값이 나왔을 때 patience만큼 더 해보�
 * 뒤에 있는 val_loss, val_acc는 validation set`s, 얘네로 monitoring
 <br>
 
-get_params()
+* get_params()
 
-get_model() 와 get_model차이...
-lambda에는 이미 실행된 함수가 들어가면 안됨.
-get_model()를 한 모델을 lambda에 집어넣어 버리면 함수가 이미 실행된게 들어가서 문제였던 것...
+get_model() 와 get_model차이... <br>
+lambda에는 이미 실행된 함수가 들어가면 안됨. <br>
+get_model()를 한 모델을 lambda에 집어넣어 버리면 함수가 이미 실행된게 들어가서 문제였던 것... <br>
+<br>
