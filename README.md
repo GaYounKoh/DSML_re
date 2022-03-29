@@ -457,4 +457,26 @@ lstm과 약한 분류기? 약한 학습기? <br>
 [AdaBoost 개념, 이론](https://dodonam.tistory.com/332) <br>
 
 [머신러닝 다양한 모델을 결합한 앙상블 학습](https://dev-youngjun.tistory.com/6) <br>
+<br>
 
+# 220329
+[stacking, boosting, bagging 비교](https://data-matzip.tistory.com/4) <br>
+stacking은 overfitting 문제 발생... <br>
+그 문제 해결을 위해 CV 방식 도입
+
+[Blas xGEMM launch failed 에러 해결 (by gpu setting)](https://skeo131.tistory.com/202) <br>
+
+* os.makedirs(폴더명)이랑, to_categorical(변수명)은 또 하면 에러남.
+makedirs의 경우 동일한 이름의 폴더를 또 생성하려고 할 때, <br>
+to_categorical은 동일한 변수를 또 카테고라이즈하려고 할 때. <br>
+<br>
+to_categorical()에러는 다음과 같음. <br>
+ValueError: Shapes (...) and (...) are incompatible <br>
+<br>
+
+* verbose뜻: 말 수가 많은
+verbose = 0 : 과정 끔 <br>
+verbose = 1 : 과정 보여줌 <br>
+verbose = 2 : 과정 함축해서 보여줌. <br>
+[verbose ref](https://www.inflearn.com/questions/208344) <br>
+<br>
