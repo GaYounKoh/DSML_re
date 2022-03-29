@@ -460,9 +460,12 @@ lstm과 약한 분류기? 약한 학습기? <br>
 <br>
 
 # 220329
-[stacking, boosting, bagging 비교](https://data-matzip.tistory.com/4) <br>
+[stacking, boosting, bagging 비교, 괜찮은 참고자료](https://data-matzip.tistory.com/4) <br>
 stacking은 overfitting 문제 발생... <br>
-그 문제 해결을 위해 CV 방식 도입
+그 문제 해결을 위해 CV 방식 도입 <br>
+
+[model ensemble stacking code](https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/) <br>
+
 
 [Blas xGEMM launch failed 에러 해결 (by gpu setting)](https://skeo131.tistory.com/202) <br>
 
@@ -479,4 +482,12 @@ verbose = 0 : 과정 끔 <br>
 verbose = 1 : 과정 보여줌 <br>
 verbose = 2 : 과정 함축해서 보여줌. <br>
 [verbose ref](https://www.inflearn.com/questions/208344) <br>
+<br>
+
+* patience @ early stop
+loss나 acc val이 가장 좋은 값이 나왔을 때 patience만큼 더 해보고도 안바뀌면 early stop해라. <br>
+<br>
+
+* 앞에 있는 loss, acc는 training set`s
+* 뒤에 있는 val_loss, val_acc는 validation set`s, 얘네로 monitoring
 <br>
