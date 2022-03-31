@@ -515,39 +515,40 @@ hyper parameter를 튜닝하면서 학습시키는게 맞음. 한경훈 교수�
 
 early stop 할 때는 epoch 수 상관 없음. <br>
 <br>
-[model.fit() parameters](https://keras.io/api/models/model_training_apis/)
+[model.fit() parameters](https://keras.io/api/models/model_training_apis/) <br>
+<br>
 
 
-sample weight만 반영되면 됨.
-방법1. resampling (if문 어쩌고 했던거)
-방법2. loss function 구할 때 weight 같이 곱해줌. (가중치)
-더 많이 틀린 애를 집중적으로 학습하는 방향으로 
 
-sample weight 개수(len) 곱하라고 하신 이유??????
-sample_weight 총 합이 원래는 1이되게 하는데 그걸 7727이 되게...... sample_weight가 너무 작아서 문제였으니까 그거를 커지게...
-
-
-지금은 training set과 validation set에서 서로 적용되는 loss func 식이 달라서 문제임.
-
-binary crossentropy 대신 weighted binary crossentropy 가능한지
-
-
-원래는 만들어서 쓰는게 맞고, 만드는게 어려우면
-validation data를 우리가 fit할 때 만들어주면 됨.
-
-fit하는 class에
-kwarg에 validation data 넣어주고...
-train과 validation으로 나눠주기.
-sample_weight 수정 다시해야함.
-
-train .... validation 나눌 때 index만 뽑아주면 됨. index가 있으면 idx로 나눌 수 있음.
-
-sample_weight도 train val 각각의 sw로 나눠줘야.
-
-정규화는 training sw만 하면 됨.
-len, sw가 다르니까..? 같이 하면 안된다고...?
-
-val set은 어떻게 만들어야 하냐면,,,
-val x, y는 우리가 한 번 더 샘플링 해줘야함. 위에서 resampling 했던 것처럼.
-
-new_val_x, new_val_y
+> * [교수님 meeting log] <br><br>
+sample weight만 반영되면 됨. <br>
+방법1. resampling (if문 어쩌고 했던거) <br>
+방법2. loss function 구할 때 weight 같이 곱해줌. (가중치) <br>
+더 많이 틀린 애를 집중적으로 학습하는 방향으로  <br>
+<br>
+sample weight 개수(len) 곱하라고 하신 이유?????? <br>
+sample_weight 총 합이 원래는 1이되게 하는데 그걸 7727이 되게...... sample_weight가 너무 작아서 문제였으니까 그거를 커지게... <br>
+<br>
+지금은 training set과 validation set에서 서로 적용되는 loss func 식이 달라서 문제임. <br>
+<br>
+binary crossentropy 대신 weighted binary crossentropy 가능한지 <br>
+<br>
+원래는 만들어서 쓰는게 맞고, 만드는게 어려우면 <br>
+validation data를 우리가 fit할 때 만들어주면 됨. <br>
+<br>
+fit하는 class에 <br>
+kwarg에 validation data 넣어주고... <br>
+train과 validation으로 나눠주기. <br>
+sample_weight 수정 다시해야함. <br>
+<br>
+train .... validation 나눌 때 index만 뽑아주면 됨. index가 있으면 idx로 나눌 수 있음. <br>
+<br>
+sample_weight도 train val 각각의 sw로 나눠줘야. <br>
+<br>
+정규화는 training sw만 하면 됨. <br>
+len, sw가 다르니까..? 같이 하면 안된다고...? <br>
+<br>
+val set은 어떻게 만들어야 하냐면,,, <br>
+val x, y는 우리가 한 번 더 샘플링 해줘야함. 위에서 resampling 했던 것처럼. <br>
+<br>
+new_val_x, new_val_y <br>
