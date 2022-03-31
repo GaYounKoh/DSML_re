@@ -552,3 +552,32 @@ val set은 어떻게 만들어야 하냐면,,, <br>
 val x, y는 우리가 한 번 더 샘플링 해줘야함. 위에서 resampling 했던 것처럼. <br>
 <br>
 new_val_x, new_val_y <br>
+
+<br>
+
+>> ref <br>
+[hyperparameter tuning] <br>
+(https://velog.io/@emseoyk/%ED%95%98%EC%9D%B4%ED%8D%BC%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%ED%8A%9C%EB%8B%9D)
+<br>
+(https://seamless.tistory.com/34)
+<br><br>
+[.fit] <br>
+(https://machinelearningmastery.com/tune-lstm-hyperparameters-keras-time-series-forecasting/)
+<br>
+(https://keras.io/ko/getting-started/sequential-model-guide/)
+<br>
+(https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)
+<br>
+(https://towardsdatascience.com/choosing-the-right-hyperparameters-for-a-simple-lstm-using-keras-f8e9ed76f046)
+<br>
+(https://www.justintodata.com/hyperparameter-tuning-with-python-keras-guide/)
+<br>
+[model.fit!!!!!]
+(https://keras.io/api/models/model_training_apis/)
+<br>
+[weighted crossentropy]
+(https://data-newbie.tistory.com/645)
+<br>
+<br>
+
+batch size 크게 하면 patience도 크게 해야....
