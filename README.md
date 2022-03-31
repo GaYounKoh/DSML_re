@@ -505,3 +505,49 @@ get_model()를 한 모델을 lambda에 집어넣어 버리면 함수가 이미 �
 * Permutation FI 짜보기...
 
 * classifier 횟수(n_estimator)는 못 세는지..? 
+
+# 220331
+* ML, DL 관련 알쓸신팁.
+batch_size = 늘릴 수 있을만큼늘리되 gpu가 감당할 수 있을만큼만 해라. <br>
+진행바 왼쪽이 input size / batch의 반올림한 값. <br>
+
+hyper parameter를 튜닝하면서 학습시키는게 맞음. 한경훈 교수님 영상 [10강. 하이퍼파라미터](https://youtu.be/iVI51L0h3LQ?t=107) 으로 확인함. <br>
+
+early stop 할 때는 epoch 수 상관 없음. <br>
+<br>
+[model.fit() parameters](https://keras.io/api/models/model_training_apis/)
+
+
+sample weight만 반영되면 됨.
+방법1. resampling (if문 어쩌고 했던거)
+방법2. loss function 구할 때 weight 같이 곱해줌. (가중치)
+더 많이 틀린 애를 집중적으로 학습하는 방향으로 
+
+sample weight 개수(len) 곱하라고 하신 이유??????
+sample_weight 총 합이 원래는 1이되게 하는데 그걸 7727이 되게...... sample_weight가 너무 작아서 문제였으니까 그거를 커지게...
+
+
+지금은 training set과 validation set에서 서로 적용되는 loss func 식이 달라서 문제임.
+
+binary crossentropy 대신 weighted binary crossentropy 가능한지
+
+
+원래는 만들어서 쓰는게 맞고, 만드는게 어려우면
+validation data를 우리가 fit할 때 만들어주면 됨.
+
+fit하는 class에
+kwarg에 validation data 넣어주고...
+train과 validation으로 나눠주기.
+sample_weight 수정 다시해야함.
+
+train .... validation 나눌 때 index만 뽑아주면 됨. index가 있으면 idx로 나눌 수 있음.
+
+sample_weight도 train val 각각의 sw로 나눠줘야.
+
+정규화는 training sw만 하면 됨.
+len, sw가 다르니까..? 같이 하면 안된다고...?
+
+val set은 어떻게 만들어야 하냐면,,,
+val x, y는 우리가 한 번 더 샘플링 해줘야함. 위에서 resampling 했던 것처럼.
+
+new_val_x, new_val_y
