@@ -562,22 +562,27 @@ new_val_x, new_val_y <br>
 (https://seamless.tistory.com/34)
 <br><br>
 [.fit] <br>
-(https://machinelearningmastery.com/tune-lstm-hyperparameters-keras-time-series-forecasting/)
+[.fit1](https://machinelearningmastery.com/tune-lstm-hyperparameters-keras-time-series-forecasting/)
 <br>
-(https://keras.io/ko/getting-started/sequential-model-guide/)
+[.fit2](https://keras.io/ko/getting-started/sequential-model-guide/)
 <br>
-(https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)
+[.fit3](https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)
 <br>
-(https://towardsdatascience.com/choosing-the-right-hyperparameters-for-a-simple-lstm-using-keras-f8e9ed76f046)
+[.fit4](https://towardsdatascience.com/choosing-the-right-hyperparameters-for-a-simple-lstm-using-keras-f8e9ed76f046)
 <br>
-(https://www.justintodata.com/hyperparameter-tuning-with-python-keras-guide/)
-<br>
-[model.fit!!!!!]
-(https://keras.io/api/models/model_training_apis/)
-<br>
-[weighted crossentropy]
-(https://data-newbie.tistory.com/645)
+[.fit5](https://www.justintodata.com/hyperparameter-tuning-with-python-keras-guide/)
+<br><br>
+[model.fit!!!!!](https://keras.io/api/models/model_training_apis/)
+<br><br>
+[weighted binary crossentropy](https://data-newbie.tistory.com/645)
 <br>
 <br>
 
-batch size 크게 하면 patience도 크게 해야....
+batch size 크게 하면 patience도 크게 해야.... <br>
+<br>
+
+training acc가 안오르면 학습이 안되는 것임.] <br>
+그냥 acc가 training acc <br>
+val_acc가 validation acc <br>
+
+==> training val이 계속 똑같거나 머무르면 학습이 안되는 것임. <br>
