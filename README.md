@@ -4,6 +4,9 @@ DSML_restart
 <i><b><q>중요한 내용</q></b>은 앞으로 뺌</i>
 <br><br><br><br>
 
+# 읽어보세요.
+[AdaBoost 정리된 글](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost) <br>
+
 # 질문
 <<220227>> <br>
 ~~preds2_mean_lst.append(np.mean(preds2))~~ <br>
