@@ -589,3 +589,13 @@ training acc가 안오르면 학습이 안되는 것임.] <br>
 val_acc가 validation acc <br>
 
 ==> training val이 계속 똑같거나 머무르면 학습이 안되는 것임. <br>
+<br>
+
+# 220412 논문 쓰는 중...
+* LSTM 정의 <br>
+[LSTM 개발자의 논문](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.676.4320&rep=rep1&type=pdf) <br>
+[LSTM에 대하여](http://www.incodom.kr/LSTM) <br>
+
+* LSTM에 learning rate 설정하는 게 없는가에 대하여 <br>
+[[ Python ] Neural Network의 적당한 구조와 hyperparameter 찾는 방법](https://data-newbie.tistory.com/255) <br>
+[하이퍼파라미터 튜닝](https://sswwd.tistory.com/37) <br>
