@@ -599,3 +599,6 @@ val_acc가 validation acc <br>
 * LSTM에 learning rate 설정하는 게 없는가에 대하여 <br>
 [[ Python ] Neural Network의 적당한 구조와 hyperparameter 찾는 방법](https://data-newbie.tistory.com/255) <br>
 [하이퍼파라미터 튜닝](https://sswwd.tistory.com/37) <br>
+
+# 220419
+Push 에러,,,,
