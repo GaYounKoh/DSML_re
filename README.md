@@ -602,3 +602,5 @@ val_acc가 validation acc <br>
 
 # 220419
 Push 에러,,,,
+
+
