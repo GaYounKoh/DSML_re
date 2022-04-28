@@ -603,4 +603,7 @@ val_acc가 validation acc <br>
 # 220419
 Push 에러,,,,
 
-
+# 220428
+[word to pdf 이미지 화질 개선 방법) 주피터 이미지 관련, 확장자.svg 혹은 .eps로 저장해서 사용](http://daplus.net/python-%EB%A7%A4%EC%9A%B0-%EB%86%92%EC%9D%80-%ED%92%88%EC%A7%88%EB%A1%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A0%80%EC%9E%A5/)
+<br>
+[feature importance의 일환으로 shap이 있음.](https://todayisbetterthanyesterday.tistory.com/56)
