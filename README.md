@@ -606,4 +606,18 @@ Push 에러,,,,
 # 220428
 [word to pdf 이미지 화질 개선 방법) 주피터 이미지 관련, 확장자.svg 혹은 .eps로 저장해서 사용](http://daplus.net/python-%EB%A7%A4%EC%9A%B0-%EB%86%92%EC%9D%80-%ED%92%88%EC%A7%88%EB%A1%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A0%80%EC%9E%A5/)
 <br>
-[feature importance의 일환으로 shap이 있음.](https://todayisbetterthanyesterday.tistory.com/56)
+[feature importance의 일환으로 shap이 있음.](https://todayisbetterthanyesterday.tistory.com/56) <br>
+
+
+# 220707
+New 방법 추가 (기존 방법 수정된 게 아니고 새로운 방법 추가된 것임.) <br>
+방법 상세: 특이마커 고르기 <br>
+
+- shape 바뀐 X에 대한 뉴 코드 <br>
+/project/LSH/** 해외_Journal of Biomedical Informatics/03 Method2 - 사망, 생존 TOP10 & 그래프 <br>
+/project/kelly/03 Method2 - 특이 마커 TOP10 & 그래프 <br>
+<br>
+
+- [/project/kelly/03 Method2 - 특이 마커 TOP10 & 그래프] 작성에 참고한 코드
+/project/kelly/[7-2] method2 (결과 4 역전마커) # 역전마커 코드에 참고 (아마 원근 코드 모두에 참고할 것 같음.)
+/project/kelly/[7-1] 결과2,3 method1_entropy ; (E(all to 1) - E(all to 0))*entropy & method1_부록 # entropy 들어있는 df가 어떻게 생겼는지 확인 차 참고
