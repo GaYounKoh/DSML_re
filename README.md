@@ -621,3 +621,7 @@ New 방법 추가 (기존 방법 수정된 게 아니고 새로운 방법 추가
 - [/project/kelly/03 Method2 - 특이 마커 TOP10 & 그래프] 작성에 참고한 코드
 /project/kelly/[7-2] method2 (결과 4 역전마커) # 역전마커 코드에 참고 (아마 원근 코드 모두에 참고할 것 같음.)
 /project/kelly/[7-1] 결과2,3 method1_entropy ; (E(all to 1) - E(all to 0))*entropy & method1_부록 # entropy 들어있는 df가 어떻게 생겼는지 확인 차 참고
+
+
+## 220710 issue
+기껏 전처리 코드 다 치고 싹 정리해놨더니 노션에 옮기는 과정에서 공중분해됨. 어디로 사라진 것인지 찾을 수가 없었음.
