@@ -623,5 +623,19 @@ New 방법 추가 (기존 방법 수정된 게 아니고 새로운 방법 추가
 /project/kelly/[7-1] 결과2,3 method1_entropy ; (E(all to 1) - E(all to 0))*entropy & method1_부록 # entropy 들어있는 df가 어떻게 생겼는지 확인 차 참고
 
 
-## 220710 issue
+# 220710 issue
 기껏 전처리 코드 다 치고 싹 정리해놨더니 노션에 옮기는 과정에서 공중분해됨. 어디로 사라진 것인지 찾을 수가 없었음.
+
+
+# 220716
+refs <br>
+[LSTM으로 시계열 예측하기: 절차](https://hhhh88.tistory.com/38) <br>
+
+[검색어: keras LSTM X shape] <br>
+[keras - Keras를 통한 LSTM의 구현](https://3months.tistory.com/168) <br>
+[Keras LSTM 입력 포맷의 이해 Understanding Input shapes in LSTM | Keras](https://swlock.blogspot.com/2019/04/keras-lstm-understanding-input-and.html) <br>
+
+[[케라스] 무작정 튜토리얼 11 - LSTM(feat.RNN) 구현하기](https://ebbnflow.tistory.com/135) <br>
+
+[keras.layers.LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) <br>
+[LSTM layer, LSTM class](https://keras.io/api/layers/recurrent_layers/lstm/) <br>
