@@ -639,3 +639,15 @@ refs <br>
 
 [keras.layers.LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) <br>
 [LSTM layer, LSTM class](https://keras.io/api/layers/recurrent_layers/lstm/) <br>
+
+[시계열수치입력 수치예측 모델 레시피](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/) <br>
+
+
+
+[검색어: keras lstm dropout] <br>
+[RNN에서의 Dropout](https://wjddyd66.github.io/keras/Keras(4-2)/) <br>
+RNN Network에서 dropout을 Sequential()에 층을 쌓는 방식이 아닌 LSTM Layer 안에서의 option으로 사용해야하는 이유 ; 과거의 중요 정보까지는 잃지 않기 위해.
+
+
+[검색어: keras lstm stateful return_sequences] <br>
+[Keras를 사용한 반복적 인 신경망 (RNN)](https://www.tensorflow.org/guide/keras/rnn?hl=ko) <br>
