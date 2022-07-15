@@ -618,27 +618,45 @@ New 방법 추가 (기존 방법 수정된 게 아니고 새로운 방법 추가
 /project/kelly/03 Method2 - 특이 마커 TOP10 & 그래프 <br>
 <br>
 
-- [/project/kelly/03 Method2 - 특이 마커 TOP10 & 그래프] 작성에 참고한 코드
-/project/kelly/[7-2] method2 (결과 4 역전마커) # 역전마커 코드에 참고 (아마 원근 코드 모두에 참고할 것 같음.)
-/project/kelly/[7-1] 결과2,3 method1_entropy ; (E(all to 1) - E(all to 0))*entropy & method1_부록 # entropy 들어있는 df가 어떻게 생겼는지 확인 차 참고
-
+- [/project/kelly/03 Method2 - 특이 마커 TOP10 & 그래프] 작성에 참고한 코드 <br>
+/project/kelly/[7-2] method2 (결과 4 역전마커) # 역전마커 코드에 참고 (아마 원근 코드 모두에 참고할 것 같음.) <br>
+/project/kelly/[7-1] 결과2,3 method1_entropy ; (E(all to 1) - E(all to 0))*entropy & method1_부록 # entropy 들어있는 df가 어떻게 생겼는지 확인 차 참고 <br>
+<br>
 
 # 220710 issue
-기껏 전처리 코드 다 치고 싹 정리해놨더니 노션에 옮기는 과정에서 공중분해됨. 어디로 사라진 것인지 찾을 수가 없었음.
+기껏 전처리 코드 다 치고 싹 정리해놨더니 노션에 옮기는 과정에서 공중분해됨. 어디로 사라진 것인지 찾을 수가 없었음. <br>
+<br>
 
 
-# 220716 notion 정리 중 ...
+# 220715
+[검색어: 파이썬 시계열 모델링 기초 코드 설명] <br>
+[코드, 예제, LSTM 설명 페이지 추천](https://rk1993.tistory.com/entry/Python%EC%8B%9C%EA%B3%84%EC%97%B4-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8%EB%A7%81-%EA%B8%B0%EC%B4%88%EB%B2%84%EC%A0%84) <br>
+[LSTM 자체에 대한 설명](https://dgkim5360.tistory.com/entry/understanding-long-short-term-memory-lstm-kr) <br>
+<br>
+
+[검색어: 파이썬 시계열 모델링 분석 LSTM예제] <br>
+[LSTM에 대한 이해가 되는 설명, notion 설명에 참고할 예정](https://hhhh88.tistory.com/38) <br>
+<br>
+
+[ARIMA 모델에 대한 설명, youtube 영상 추천](https://taek98.tistory.com/44) <br>
+[ARIMA 모델에 대한 설명, 코드, 예제](https://happy-chipmunk.tistory.com/entry/Time-Series-Forecasting-2-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8B%9C%EA%B3%84%EC%97%B4-%EC%98%88%EC%B8%A1-%EB%AA%A8%EB%8D%B8%EB%A7%81-ARIMA-Auto-regressive-integrated-moving-average-Auto-ARIMA) <br>
+<br>
+
+
+# 220716 notion 정리 중 ...💛
 refs for notion<br>
 [LSTM으로 시계열 예측하기: 절차](https://hhhh88.tistory.com/38) <br>
 
 [검색어: keras LSTM X shape] <br>
 [keras - Keras를 통한 LSTM의 구현](https://3months.tistory.com/168) <br>
 [Keras LSTM 입력 포맷의 이해 Understanding Input shapes in LSTM | Keras](https://swlock.blogspot.com/2019/04/keras-lstm-understanding-input-and.html) <br>
+<br>
 
 [[케라스] 무작정 튜토리얼 11 - LSTM(feat.RNN) 구현하기](https://ebbnflow.tistory.com/135) <br>
 
-[keras.layers.LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) <br>
-[LSTM layer, LSTM class](https://keras.io/api/layers/recurrent_layers/lstm/) <br>
+
+[[공식문서] keras.layers.LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM) <br>
+[[공식문서] LSTM layer, LSTM class](https://keras.io/api/layers/recurrent_layers/lstm/) <br>
 
 [시계열수치입력 수치예측 모델 레시피](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/) <br>
 
@@ -646,8 +664,10 @@ refs for notion<br>
 
 [검색어: keras lstm dropout] <br>
 [RNN에서의 Dropout](https://wjddyd66.github.io/keras/Keras(4-2)/) <br>
-RNN Network에서 dropout을 Sequential()에 층을 쌓는 방식이 아닌 LSTM Layer 안에서의 option으로 사용해야하는 이유 ; 과거의 중요 정보까지는 잃지 않기 위해.
+💛💛 RNN Network에서 dropout을 Sequential()에 층을 쌓는 방식이 아닌 LSTM Layer 안에서의 option으로 사용해야하는 이유 ; 과거의 중요 정보까지는 잃지 않기 위해. <br>
+<br>
 
 
 [검색어: keras lstm stateful return_sequences] <br>
 [Keras를 사용한 반복적 인 신경망 (RNN)](https://www.tensorflow.org/guide/keras/rnn?hl=ko) <br>
+<br>
