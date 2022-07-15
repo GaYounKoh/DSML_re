@@ -627,8 +627,8 @@ New 방법 추가 (기존 방법 수정된 게 아니고 새로운 방법 추가
 기껏 전처리 코드 다 치고 싹 정리해놨더니 노션에 옮기는 과정에서 공중분해됨. 어디로 사라진 것인지 찾을 수가 없었음.
 
 
-# 220716
-refs <br>
+# 220716 notion 정리 중 ...
+refs for notion<br>
 [LSTM으로 시계열 예측하기: 절차](https://hhhh88.tistory.com/38) <br>
 
 [검색어: keras LSTM X shape] <br>
