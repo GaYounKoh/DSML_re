@@ -30,7 +30,7 @@ DSML_restart
 정리
 
 mimic-iii data: 2001년~2012년 미국 중환자실 (ICU) data
-7727: 폐렴환자 수, 근데 이제 abnormal(x matrix) sum이 0인 아무 의미 없는 환자들을 제외한.
+7727: 폐렴환자 수, 근데 이제 abnormal(x matrix) sum이 0인 아무 의미 없는 환자들을 제외한. # DSML_re/[해외논문] Journal of Biomedical Informatics/01 데이터 전처리.ipynb
 4068: 폐렴환자들에게서 발견된 item 수 (4069 -> 4068이 된 이유? : 7727로 줄여보니까 해당 아이템이 싹 0이었어서)
 
 퇴원을 d-day로 두고 [d-10 ~ d-1]까지를 x의 time에,
