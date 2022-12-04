@@ -671,3 +671,11 @@ refs for notion<br>
 [검색어: keras lstm stateful return_sequences] <br>
 [Keras를 사용한 반복적 인 신경망 (RNN)](https://www.tensorflow.org/guide/keras/rnn?hl=ko) <br>
 <br>
+
+
+## 221205
+[statistical Feature Selection] <br>
+[Pneumonia identification using statistical feature selection](https://academic.oup.com/jamia/article/19/5/817/718233) <br>
+[Statistical interpretation of machine learning-based feature importance scores for biomarker discovery](https://academic.oup.com/bioinformatics/article/28/13/1766/234473) <br>
+[Interpretable and explainable AI (XAI) model for spatial drought prediction](https://www.sciencedirect.com/science/article/abs/pii/S0048969721048725) <br>
+[Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)](https://ieeexplore.ieee.org/abstract/document/8466590) <br>
