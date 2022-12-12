@@ -4,6 +4,11 @@ DSML_restart
 <i><b><q>중요한 내용</q></b>은 앞으로 뺌</i>
 <br><br><br><br>
 
+# 가장 중요한 사실 221212
+X shape (7727, 10, 3595)으로 업데이트 된 거였음. ~~4068 제발 잊어.~~ <br>
+
+
+
 # 읽어보세요.
 [AdaBoost 정리된 글](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost) <br>
 
